@@ -1,14 +1,40 @@
 #!/bin/bash
 INPUT_FILE=$1
 
+DEBUG=0
+tabs 50
+
+function debug {
+  if [[ $DEBUG == 1 ]]
+  then
+    echo -e $1
+  fi
+}
 
 
 while read -r l; do
-#l=($l)
-#awk '{print $l}'
 NAME_WITH_VERSION=$(echo $l | sed 's/\s.*$//')
 NAME=$(./package_name_parser $NAME_WITH_VERSION)
-echo $NAME
+debug "\n------\nname=$NAME"
+
+#if [ $NAME != "foreman" ]; then
+#  continue
+#fi
+
+DNF_INFO_ARR=($(dnf info $NAME | grep "License\|URL"))
+
+# Skip if can't find package
+if [ "${DNF_INFO_ARR[0]}" == "Error:" ]; then
+  continue
+fi
+
+URL=${DNF_INFO_ARR[2]}
+debug "url=$URL"
+LICENSE=${DNF_INFO_ARR[@]:5}
+debug "license=$LICENSE"
+
+echo -e "$NAME\t$LICENSE\t$URL"
+
 done < <(cat $INPUT_FILE)
 
 
