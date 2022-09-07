@@ -1,0 +1,15 @@
+#!/bin/bash
+INPUT_FILE=$1
+
+
+
+while read -r l; do
+#l=($l)
+#awk '{print $l}'
+NAME_WITH_VERSION=$(echo $l | sed 's/\s.*$//')
+NAME=$(./package_name_parser $NAME_WITH_VERSION)
+echo $NAME
+done < <(cat $INPUT_FILE)
+
+
+exit

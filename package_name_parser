@@ -1,0 +1,92 @@
+#!/bin/bash
+
+OLD_IFS=$IFS
+DEBUG=0
+
+function debug {
+  if [[ $DEBUG == 1 ]]
+  then
+    echo -e $1
+  fi
+}
+
+function is_version {
+  local pkg_name_arr=("$@")
+  #echo pkg_name_arr="${pkg_name_arr[*]}"
+  local pkgname_or_version_helper_count=0
+  for val in "${pkg_name_arr[@]}"; do
+    #echo pkgname_or_version_helper_count=$pkgname_or_version_helper_count
+    if [[ $val =~ el ]]; then
+      let ver_start=$pkgname_or_version_helper_count-1
+      if [[ $ver_start -eq 0 ]]; then
+        echo true
+        break 
+      else
+        echo false
+        break
+      fi
+    fi
+    ((pkgname_or_version_helper_count++))
+  done
+}
+
+function trim_pkg_name {
+  local name=$1
+  name=${name%.rpm}
+  name=${name%.x86_64}
+  name=${name%.aarch64}
+  name=${name%.arm64}
+  echo $name
+}
+
+
+
+### examples:
+### rclone-1.55.1-1.0.1.el7.x86_64
+### rclone-1.55.1-1.0.1.el7
+### rh-dotnet50-dotnet-runtime-5.0-5.0.0-1.0.1.el7_9.x86_64
+### rh-dotnet50-aspnetcore-runtime-5.0-5.0.9-1.0.1.el7_9.x86_64.rpm
+### oracle-instantclient-release-el7-1.0-2.el7
+INPUT=$1
+INPUT=$(trim_pkg_name $INPUT)
+debug INPUT=$INPUT
+
+INPUT_PKGNAME=""
+IFS='-'
+read -a strarr <<< "$INPUT"
+IFS=$OLD_IFS
+count=0
+for val in "${strarr[@]}"; do
+  debug val=$val
+  if [[ $val =~ ^[0-9]+([\.][0-9])* ]]; then #detect version format
+    debug "is_version result: $(is_version ${strarr[@]:$count})"
+    if ! $(is_version ${strarr[@]:$count}); then #if this word is not a version, append it to package name
+      INPUT_PKGNAME="$INPUT_PKGNAME-$val"
+      ((count++))
+    fi
+    # Everything else is part of the version-release
+    debug count=$count
+    debug "strarr left: ${strarr[@]:$count}"
+    INPUT_VER_RELEASE=${strarr[$count]}-${strarr[$count+1]}
+    break 
+  fi
+
+  # Do different type of appending to package name
+  if [[ $count -eq 0 ]]; then
+    INPUT_PKGNAME=$val
+  else
+    INPUT_PKGNAME="$INPUT_PKGNAME-$val"
+  fi
+
+  ((count++))
+done
+
+debug
+debug INPUT_PKGNAME=$INPUT_PKGNAME
+debug INPUT_VER_RELEASE=$INPUT_VER_RELEASE
+
+if [[ $DEBUG -eq 1 ]]; then
+exit 1
+fi
+
+echo $INPUT_PKGNAME
