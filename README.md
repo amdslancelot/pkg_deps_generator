@@ -4,7 +4,7 @@
 
 ```sh
 # ./pkg_info_legal example1 > for_legal 2>/dev/null &
-[root@lh-l8-fk2 pkg_info_legal]# tail -200f for_legal 
+# tail -200f for_legal 
 dnf-plugin-subscription-manager                                                                                                                                                                           
 dnf-plugin-subscription-manager-debuginfo		
 dynflow-utils	GPLv3	https://github.com/dynflow/dynflow
