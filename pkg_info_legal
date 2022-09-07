@@ -22,19 +22,30 @@ while read -r l; do
 	debug "\n------\nname=$NAME"
 
 	# Test: limit to the package name want to be tested
-	if [ $NAME != $NARROW_PKG_NAME ]; then
+	if [ ! -z $NARROW_PKG_NAME ] && [ $NAME != $NARROW_PKG_NAME ]; then
 		continue
 	fi
 
-	DNF_INFO_ARR=($(dnf info $NAME | grep "License      : \|URL          : "))
-	#echo ${DNF_INFO_ARR[@]}
+	DNF_INFO=$(dnf info $NAME)
+	debug "dnf_info:"
+	debug "$DNF_INFO"
+
+	# Skip if found more than 2 lines
+	count=$(echo "$DNF_INFO" | grep -o -i "License      : " | wc -l)
+	debug "num_of_results=$count"
+	if [ $count -ge 2 ]; then
+		echo "package \"$NAME\" is already released by oracle. skipping." 
+		continue
+	fi
+
+	DNF_INFO_ARR=($(echo "$DNF_INFO" | grep "License      : \|URL          : "))
+	debug "${DNF_INFO_ARR[@]}"
 
 	# Skip if can't find package
 	if [ "${DNF_INFO_ARR[0]}" == "Error:" ]; then
 		continue
 	fi
 
-	# TODO: Skip if found more than 2 lines
 
 	URL=${DNF_INFO_ARR[2]}
 	debug "url=$URL"
