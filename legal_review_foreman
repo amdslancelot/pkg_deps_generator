@@ -1,0 +1,618 @@
+dnf-plugin-subscription-manager	GPLv2	http://www.candlepinproject.org/
+dnf-plugin-subscription-manager-debuginfo	GPLv2	http://www.candlepinproject.org/
+dynflow-utils	GPLv3	https://github.com/dynflow/dynflow
+foreman	GPLv3+ with exceptions	https://theforeman.org
+foreman-assets	GPLv3+ with exceptions	https://theforeman.org
+foreman-bootloaders-redhat	GPLv2+ and GPLv3+ and BSD	https://github.com/theforeman/foreman
+foreman-bootloaders-redhat-tftpboot	GPLv2+ and GPLv3+ and BSD	https://github.com/theforeman/foreman
+foreman-build	GPLv3+ with exceptions	https://theforeman.org
+foreman-cli	GPLv3+ with exceptions	https://theforeman.org
+foreman-client-release	GPLv3+	https://theforeman.org
+foreman-console	GPLv3+ with exceptions	https://theforeman.org
+foreman-debug	GPLv3+ with exceptions	https://theforeman.org
+foreman-dynflow-sidekiq	GPLv3+ with exceptions	https://theforeman.org
+foreman-ec2	GPLv3+ with exceptions	https://theforeman.org
+foreman-gce	GPLv3+ with exceptions	https://theforeman.org
+foreman-journald	GPLv3+ with exceptions	https://theforeman.org
+foreman-libvirt	GPLv3+ with exceptions	https://theforeman.org
+foreman-openstack	GPLv3+ with exceptions	https://theforeman.org
+foreman-ovirt	GPLv3+ with exceptions	https://theforeman.org
+foreman-plugin	GPLv3+ with exceptions	https://theforeman.org
+foreman-postgresql	GPLv3+ with exceptions	https://theforeman.org
+foreman-proxy	GPLv3+	https://theforeman.org/projects/smart-proxy
+foreman-proxy-journald	GPLv3+	https://theforeman.org/projects/smart-proxy
+foreman-proxy-selinux	GPLv3+	https://theforeman.org
+foreman-redis	GPLv3+ with exceptions	https://theforeman.org
+foreman-release	GPLv3+	https://theforeman.org
+foreman-selinux	GPLv3+	https://theforeman.org
+foreman-service	GPLv3+ with exceptions	https://theforeman.org
+foreman-telemetry	GPLv3+ with exceptions	https://theforeman.org
+foreman-vmware	GPLv3+ with exceptions	https://theforeman.org
+foreman_ygg_worker	MIT	https://github.com/theforeman/foreman_ygg_worker/
+gofer	LGPLv2	https://github.com/jortel/gofer
+gofer-tools	LGPLv2	https://github.com/jortel/gofer
+package "gyp" is already released by oracle. skipping.
+katello-agent	LGPLv2	https://github.com/Katello/katello-agent
+katello-certs-tools	GPLv2	https://github.com/katello/katello-certs-tools
+katello-host-tools	LGPLv2	https://github.com/Katello/katello-agent
+katello-host-tools-tracer	LGPLv2	https://github.com/Katello/katello-agent
+keycloak-httpd-client-install	GPLv3	https://github.com/latchset/keycloak-httpd-client-install
+modules.yaml		
+nodejs-argv-parse	ISC	https://github.com/paulcpederson/argv-parse
+nodejs-babel-cli	MIT	https://babeljs.io/
+nodejs-babel-core	MIT	https://babeljs.io/
+nodejs-babel-loader	MIT	https://github.com/babel/babel-loader
+nodejs-babel-plugin-lodash	MIT	https://github.com/lodash/babel-plugin-lodash#readme
+nodejs-babel-plugin-syntax-dynamic-import	MIT	https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-dynamic-import
+nodejs-babel-plugin-syntax-object-rest-spread	MIT	https://github.com/babel/babel/tree/master/packages/babel-plugin-syntax-object-rest-spread
+nodejs-babel-plugin-transform-class-properties	MIT	https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-class-properties
+nodejs-babel-plugin-transform-object-assign	MIT	https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-object-assign
+nodejs-babel-plugin-transform-object-rest-spread	MIT	https://github.com/babel/babel/tree/master/packages/babel-plugin-transform-object-rest-spread
+nodejs-babel-polyfill	MIT	https://babeljs.io/
+nodejs-babel-preset-env	MIT	https://babeljs.io/
+nodejs-babel-preset-react	MIT	https://babeljs.io/
+nodejs-babel-register	MIT	https://github.com/babel/babel/tree/master/packages/babel-register
+nodejs-babel-runtime	MIT	https://github.com/babel/babel/tree/master/packages/babel-runtime
+nodejs-c3	MIT	https://github.com/masayuki0812/c3#readme
+nodejs-compression-webpack-plugin	MIT	https://webpack.js.org/plugins/compression-webpack-plugin/
+nodejs-core-js	MIT	https://github.com/zloirock/core-js#readme
+nodejs-css-loader	MIT	https://github.com/webpack/css-loader#readme
+nodejs-cssnano	MIT	https://github.com/cssnano/cssnano
+nodejs-d3	BSD-3-Clause	http://d3js.org
+nodejs-dotenv	BSD-2-Clause	https://github.com/motdotla/dotenv#readme
+nodejs-expose-loader	MIT	https://github.com/webpack/expose-loader#readme
+nodejs-extract-text-webpack-plugin	MIT	http://github.com/webpack-contrib/extract-text-webpack-plugin
+nodejs-file-loader	MIT	https://github.com/webpack/file-loader
+nodejs-graphql	MIT	https://github.com/graphql/graphql-js
+nodejs-graphql-tag	MIT	https://github.com/apollographql/graphql-tag#readme
+nodejs-harmony-reflect	(Apache-2.0 OR MPL-1.1)	https://github.com/tvcutsem/harmony-reflect
+nodejs-humanize-duration	Unlicense	https://github.com/EvanHahn/HumanizeDuration.js
+nodejs-identity-obj-proxy	MIT	https://github.com/keyanzhang/identity-obj-proxy#readme
+nodejs-intl	MIT	https://github.com/andyearnshaw/Intl.js#readme
+nodejs-invariant	MIT	https://github.com/zertosh/invariant#readme
+nodejs-jed	MIT	https://github.com/SlexAxton/Jed#readme
+nodejs-jquery	MIT	http://jquery.com
+nodejs-js-tokens	MIT	https://github.com/lydell/js-tokens#readme
+nodejs-lodash	MIT	https://lodash.com/
+nodejs-lodash-es	MIT	https://lodash.com/custom-builds
+nodejs-loose-envify	MIT	https://github.com/zertosh/loose-envify
+nodejs-node-gyp	MIT	https://github.com/nodejs/node-gyp#readme
+nodejs-node-sass	MIT	https://github.com/sass/node-sass
+nodejs-object-assign	MIT	https://github.com/sindresorhus/object-assign#readme
+nodejs-optimize-css-assets-webpack-plugin	MIT	http://github.com/NMFR/optimize-css-assets-webpack-plugin
+nodejs-patternfly-react-catalog-view-extension	MIT	https://github.com/patternfly/patternfly-react/blob/master/packages/react-catalog-view-extension/README.md
+nodejs-performance-now	MIT	https://github.com/braveg1rl/performance-now
+nodejs-popper.js	MIT	https://popper.js.org
+nodejs-raf	MIT	https://github.com/chrisdickinson/raf#readme
+nodejs-react	MIT	https://reactjs.org/
+nodejs-react-bootstrap	MIT	https://react-bootstrap.github.io/
+nodejs-react-dom	MIT	https://reactjs.org/
+nodejs-react-ellipsis-with-tooltip	MIT	https://github.com/amirfefer/react-ellipsis-with-tooltip
+nodejs-react-intl	BSD-3-Clause	https://github.com/yahoo/react-intl
+nodejs-react-is	MIT	https://reactjs.org/
+nodejs-react-lifecycles-compat	MIT	https://github.com/reactjs/react-lifecycles-compat#readme
+nodejs-react-redux	MIT	https://github.com/reduxjs/react-redux
+nodejs-redhat-cloud-services-frontend-components	Apache-2.0	https://github.com/RedHatInsights/frontend-components/tree/master/packages/components#readme
+nodejs-redux	MIT	http://redux.js.org
+nodejs-redux-thunk	MIT	https://github.com/reduxjs/redux-thunk
+nodejs-regenerator-runtime	MIT	https://github.com/facebook/regenerator/tree/master/packages/regenerator-runtime
+nodejs-reselect	MIT	https://github.com/reactjs/reselect#readme
+nodejs-sass-loader	MIT	https://github.com/webpack-contrib/sass-loader
+nodejs-seamless-immutable	BSD-3-Clause	https://github.com/rtfeldman/seamless-immutable
+nodejs-sortabular	MIT	https://github.com/reactabular/sortabular#readme
+nodejs-style-loader	MIT	https://github.com/webpack/style-loader#readme
+nodejs-symbol-observable	MIT	https://github.com/blesh/symbol-observable#readme
+nodejs-table-resolver	MIT	https://github.com/reactabular/table-resolver#readme
+nodejs-theforeman-builder	MIT	https://github.com/theforeman/foreman-js#readme
+nodejs-theforeman-vendor	MIT	https://github.com/theforeman/foreman-js#readme
+nodejs-typed-styles	MIT	https://www.npmjs.com/package/typed-styles
+nodejs-uglifyjs-webpack-plugin	MIT	https://github.com/webpack-contrib/uglifyjs-webpack-plugin
+nodejs-urijs	MIT	http://medialize.github.io/URI.js/
+nodejs-url-loader	MIT	https://github.com/webpack-contrib/url-loader
+nodejs-use-deep-compare-effect	MIT	https://github.com/kentcdodds/use-deep-compare-effect#readme
+nodejs-uuid	MIT	https://github.com/kelektiv/node-uuid#readme
+nodejs-warning	MIT	https://github.com/BerkeleyTrue/warning
+nodejs-webpack	MIT	https://github.com/webpack/webpack
+nodejs-webpack-stats-plugin	MIT	https://github.com/FormidableLabs/webpack-stats-plugin#readme
+pcp-mmvstatsd	MIT and BSD	https://github.com/lzap/pcp-mmvstatsd
+puppet-agent-oauth	MIT	http://rubydoc.info/gems/oauth
+puppet-agent-puppet-strings	ASL-2.0	https://github.com/puppetlabs/puppetlabs-strings
+puppet-agent-rgen	MIT	http://rubydoc.info/gems/rgen
+puppet-agent-yard	MIT	http://yardoc.org/
+python-psutil-debugsource	BSD	https://github.com/giampaolo/psutil
+python3-cloud-what	GPLv2	http://www.candlepinproject.org/
+python3-gofer	LGPLv2	https://github.com/jortel/gofer
+python3-gofer-amqp	LGPLv2	https://github.com/jortel/gofer
+python3-gofer-proton	LGPLv2	https://github.com/jortel/gofer
+python3-gofer-qpid	LGPLv2	https://github.com/jortel/gofer
+python3-keycloak-httpd-client-install	GPLv3	https://github.com/latchset/keycloak-httpd-client-install
+python3-psutil	BSD	https://github.com/giampaolo/psutil
+python3-psutil-debuginfo	BSD	https://github.com/giampaolo/psutil
+python3-subscription-manager-rhsm	GPLv2	http://www.candlepinproject.org/
+python3-subscription-manager-rhsm-debuginfo	GPLv2	http://www.candlepinproject.org/
+python3-syspurpose	GPLv2	http://www.candlepinproject.org/
+python3-tracer	GPLv2+	http://tracer-package.com/
+rhsm-gtk	GPLv2	http://www.candlepinproject.org/
+rhsm-icons	GPLv2	http://www.candlepinproject.org/
+rubygem-actioncable	MIT	https://rubyonrails.org
+rubygem-actioncable-doc	MIT	https://rubyonrails.org
+rubygem-actionmailbox	MIT	https://rubyonrails.org
+rubygem-actionmailbox-doc	MIT	https://rubyonrails.org
+rubygem-actionmailer	MIT	https://rubyonrails.org
+rubygem-actionmailer-doc	MIT	https://rubyonrails.org
+rubygem-actionpack	MIT	https://rubyonrails.org
+rubygem-actionpack-doc	MIT	https://rubyonrails.org
+rubygem-actiontext	MIT	https://rubyonrails.org
+rubygem-actiontext-doc	MIT	https://rubyonrails.org
+rubygem-actionview	MIT	https://rubyonrails.org
+rubygem-actionview-doc	MIT	https://rubyonrails.org
+rubygem-activejob	MIT	https://rubyonrails.org
+rubygem-activejob-doc	MIT	https://rubyonrails.org
+rubygem-activemodel	MIT	https://rubyonrails.org
+rubygem-activemodel-doc	MIT	https://rubyonrails.org
+rubygem-activerecord	MIT	https://rubyonrails.org
+rubygem-activerecord-doc	MIT	https://rubyonrails.org
+rubygem-activerecord-nulldb-adapter	MIT	http://github.com/nulldb/nulldb
+rubygem-activerecord-nulldb-adapter-doc	MIT	http://github.com/nulldb/nulldb
+rubygem-activerecord-session_store	MIT	https://github.com/rails/activerecord-session_store
+rubygem-activerecord-session_store-doc	MIT	https://github.com/rails/activerecord-session_store
+rubygem-activestorage	MIT	https://rubyonrails.org
+rubygem-activestorage-doc	MIT	https://rubyonrails.org
+rubygem-activesupport	MIT	https://rubyonrails.org
+rubygem-activesupport-doc	MIT	https://rubyonrails.org
+rubygem-addressable	Apache-2.0	https://github.com/sporkmonger/addressable
+rubygem-addressable-doc	Apache-2.0	https://github.com/sporkmonger/addressable
+rubygem-algebrick	GPLv3	https://github.com/pitr-ch/algebrick
+rubygem-algebrick-doc	GPLv3	https://github.com/pitr-ch/algebrick
+rubygem-amazing_print	MIT	https://github.com/amazing-print/amazing_print
+rubygem-amazing_print-doc	MIT	https://github.com/amazing-print/amazing_print
+rubygem-ancestry	MIT	https://github.com/stefankroes/ancestry
+rubygem-ancestry-doc	MIT	https://github.com/stefankroes/ancestry
+rubygem-angular-rails-templates	MIT	https://github.com/pitr/angular-rails-templates
+rubygem-angular-rails-templates-doc	MIT	https://github.com/pitr/angular-rails-templates
+rubygem-ansi	BSD-2-Clause	http://rubyworks.github.com/ansi
+rubygem-ansi-doc	BSD-2-Clause	http://rubyworks.github.com/ansi
+rubygem-apipie-bindings	MIT	https://github.com/Apipie/apipie-bindings
+rubygem-apipie-bindings-doc	MIT	https://github.com/Apipie/apipie-bindings
+rubygem-apipie-dsl	MIT	https://github.com/ofedoren/apipie-dsl
+rubygem-apipie-dsl-doc	MIT	https://github.com/ofedoren/apipie-dsl
+rubygem-apipie-params	MIT	https://github.com/iNecas/apipie-params
+rubygem-apipie-params-doc	MIT	https://github.com/iNecas/apipie-params
+rubygem-apipie-rails	MIT and ASL 2.0	https://github.com/Apipie/apipie-rails
+rubygem-apipie-rails-doc	MIT and ASL 2.0	https://github.com/Apipie/apipie-rails
+rubygem-audited	MIT	https://github.com/collectiveidea/audited
+rubygem-audited-doc	MIT	https://github.com/collectiveidea/audited
+rubygem-autoprefixer-rails	MIT	https://github.com/ai/autoprefixer-rails
+rubygem-autoprefixer-rails-doc	MIT	https://github.com/ai/autoprefixer-rails
+rubygem-awesome_print	MIT	https://github.com/awesome-print/awesome_print
+rubygem-awesome_print-doc	MIT	https://github.com/awesome-print/awesome_print
+rubygem-bcrypt	MIT and Public Domain and ISC	https://github.com/codahale/bcrypt-ruby
+rubygem-bcrypt-debuginfo	MIT and Public Domain and ISC	https://github.com/codahale/bcrypt-ruby
+rubygem-bcrypt-debugsource	MIT and Public Domain and ISC	https://github.com/codahale/bcrypt-ruby
+rubygem-bcrypt-doc	MIT and Public Domain and ISC	https://github.com/codahale/bcrypt-ruby
+rubygem-bootstrap-sass	MIT	https://github.com/twbs/bootstrap-sass
+rubygem-bootstrap-sass-doc	MIT	https://github.com/twbs/bootstrap-sass
+rubygem-builder	MIT	http://onestepback.org
+rubygem-builder-doc	MIT	http://onestepback.org
+rubygem-bundler_ext	ASL 2.0	https://github.com/bundlerext/bundler_ext
+rubygem-bundler_ext-doc	ASL 2.0	https://github.com/bundlerext/bundler_ext
+rubygem-clamp	MIT	https://github.com/mdub/clamp
+rubygem-clamp-doc	MIT	https://github.com/mdub/clamp
+rubygem-coffee-rails	MIT	https://github.com/rails/coffee-rails
+rubygem-coffee-rails-doc	MIT	https://github.com/rails/coffee-rails
+rubygem-coffee-script	MIT	http://github.com/josh/ruby-coffee-script
+rubygem-coffee-script-doc	MIT	http://github.com/josh/ruby-coffee-script
+rubygem-coffee-script-source	MIT	http://coffeescript.org
+rubygem-coffee-script-source-doc	MIT	http://coffeescript.org
+rubygem-colorize	GPL-2.0	http://github.com/fazibear/colorize
+rubygem-colorize-doc	GPL-2.0	http://github.com/fazibear/colorize
+rubygem-concurrent-ruby	MIT	https://github.com/ruby-concurrency/concurrent-ruby
+rubygem-concurrent-ruby-doc	MIT	https://github.com/ruby-concurrency/concurrent-ruby
+rubygem-concurrent-ruby-edge	MIT	https://github.com/ruby-concurrency/concurrent-ruby
+rubygem-concurrent-ruby-edge-doc	MIT	https://github.com/ruby-concurrency/concurrent-ruby
+rubygem-connection_pool	MIT	https://github.com/mperham/connection_pool
+rubygem-connection_pool-doc	MIT	https://github.com/mperham/connection_pool
+rubygem-crass	MIT	https://github.com/rgrove/crass/
+rubygem-crass-doc	MIT	https://github.com/rgrove/crass/
+rubygem-css_parser	MIT	https://github.com/premailer/css_parser
+rubygem-css_parser-doc	MIT	https://github.com/premailer/css_parser
+rubygem-daemons	GPLv2+ or Ruby	http://daemons.rubyforge.org
+rubygem-daemons-doc	GPLv2+ or Ruby	http://daemons.rubyforge.org
+rubygem-deacon	GPLv3 and Public domain	https://github.com/lzap/deacon
+rubygem-deacon-doc	GPLv3 and Public domain	https://github.com/lzap/deacon
+rubygem-declarative	MIT	https://github.com/apotonick/declarative
+rubygem-declarative-doc	MIT	https://github.com/apotonick/declarative
+rubygem-declarative-option	MIT	https://github.com/apotonick/declarative-option
+rubygem-declarative-option-doc	MIT	https://github.com/apotonick/declarative-option
+rubygem-deep_cloneable	MIT	https://github.com/moiristo/deep_cloneable
+rubygem-deep_cloneable-doc	MIT	https://github.com/moiristo/deep_cloneable
+rubygem-deface	MIT	https://github.com/spree/deface
+rubygem-deface-doc	MIT	https://github.com/spree/deface
+rubygem-domain_name	BSD and (MPLv1.1 or GPLv2+ or LGPLv2+)	https://github.com/knu/ruby-domain_name
+rubygem-domain_name-doc	BSD and (MPLv1.1 or GPLv2+ or LGPLv2+)	https://github.com/knu/ruby-domain_name
+rubygem-dynflow	MIT	https://github.com/Dynflow/dynflow
+rubygem-dynflow-doc	MIT	https://github.com/Dynflow/dynflow
+rubygem-erubi	MIT	https://github.com/jeremyevans/erubi
+rubygem-erubi-doc	MIT	https://github.com/jeremyevans/erubi
+rubygem-eventmachine	Ruby and GPL	http://rubyeventmachine.com
+rubygem-eventmachine-debuginfo	Ruby and GPL	http://rubyeventmachine.com
+rubygem-eventmachine-debugsource	Ruby and GPL	http://rubyeventmachine.com
+rubygem-eventmachine-doc	Ruby and GPL	http://rubyeventmachine.com
+rubygem-excon	MIT	https://github.com/geemus/excon
+rubygem-excon-doc	MIT	https://github.com/geemus/excon
+rubygem-execjs	MIT	https://github.com/rails/execjs
+rubygem-execjs-doc	MIT	https://github.com/rails/execjs
+rubygem-facter	ASL 2.0	https://puppetlabs.com/facter
+rubygem-facter-doc	ASL 2.0	https://puppetlabs.com/facter
+rubygem-faraday	MIT	https://github.com/lostisland/faraday
+rubygem-faraday-doc	MIT	https://github.com/lostisland/faraday
+rubygem-fast_gettext	MIT and (GPLv2+ or Ruby)	https://github.com/grosser/fast_gettext
+rubygem-fast_gettext-doc	MIT and (GPLv2+ or Ruby)	https://github.com/grosser/fast_gettext
+rubygem-ffi	BSD-3-Clause	https://github.com/ffi/ffi/wiki
+rubygem-ffi-debuginfo	BSD-3-Clause	https://github.com/ffi/ffi/wiki
+rubygem-ffi-debugsource	BSD-3-Clause	https://github.com/ffi/ffi/wiki
+rubygem-ffi-doc	BSD-3-Clause	https://github.com/ffi/ffi/wiki
+rubygem-fog-aws	MIT	https://github.com/fog/fog-aws
+rubygem-fog-aws-doc	MIT	https://github.com/fog/fog-aws
+rubygem-fog-core	MIT	https://github.com/fog/fog-core
+rubygem-fog-core-doc	MIT	https://github.com/fog/fog-core
+rubygem-fog-google	MIT	https://github.com/fog/fog-google
+rubygem-fog-google-doc	MIT	https://github.com/fog/fog-google
+rubygem-fog-json	MIT	https://github.com/fog/fog-json
+rubygem-fog-json-doc	MIT	https://github.com/fog/fog-json
+rubygem-fog-libvirt	MIT	https://github.com/fog/fog-libvirt
+rubygem-fog-libvirt-doc	MIT	https://github.com/fog/fog-libvirt
+rubygem-fog-openstack	MIT	https://github.com/fog/fog-openstack
+rubygem-fog-openstack-doc	MIT	https://github.com/fog/fog-openstack
+rubygem-fog-ovirt	MIT	https://github.com/fog/fog-ovirt
+rubygem-fog-ovirt-doc	MIT	https://github.com/fog/fog-ovirt
+rubygem-fog-vsphere	MIT	https://github.com/fog/fog-vsphere
+rubygem-fog-vsphere-doc	MIT	https://github.com/fog/fog-vsphere
+rubygem-fog-xenserver	MIT	https://github.com/fog/fog-xenserver
+rubygem-fog-xenserver-doc	MIT	https://github.com/fog/fog-xenserver
+rubygem-fog-xml	MIT	https://github.com/fog/fog-xml
+rubygem-fog-xml-doc	MIT	https://github.com/fog/fog-xml
+rubygem-font-awesome-sass	MIT	https://github.com/FortAwesome/font-awesome-sass
+rubygem-font-awesome-sass-doc	MIT	https://github.com/FortAwesome/font-awesome-sass
+rubygem-foreman-tasks	GPLv3	https://github.com/theforeman/foreman-tasks
+rubygem-foreman-tasks-doc	GPLv3	https://github.com/theforeman/foreman-tasks
+rubygem-foreman_maintain	GPLv3	https://github.com/theforeman/foreman_maintain
+rubygem-foreman_maintain-doc	GPLv3	https://github.com/theforeman/foreman_maintain
+rubygem-foreman_remote_execution	GPLv3	https://github.com/theforeman/foreman_remote_execution
+rubygem-foreman_remote_execution-cockpit	GPLv3	https://github.com/theforeman/foreman_remote_execution
+rubygem-foreman_remote_execution-doc	GPLv3	https://github.com/theforeman/foreman_remote_execution
+rubygem-foreman_scap_client	GPLv3	https://github.com/openscap/foreman_scap_client
+rubygem-foreman_scap_client-doc	GPLv3	https://github.com/openscap/foreman_scap_client
+rubygem-formatador	MIT	https://github.com/geemus/formatador
+rubygem-formatador-doc	MIT	https://github.com/geemus/formatador
+rubygem-friendly_id	MIT	https://github.com/norman/friendly_id
+rubygem-friendly_id-doc	MIT	https://github.com/norman/friendly_id
+rubygem-get_process_mem	MIT	https://github.com/schneems/get_process_mem
+rubygem-get_process_mem-doc	MIT	https://github.com/schneems/get_process_mem
+rubygem-gettext	Ruby or LGPLv3+	http://ruby-gettext.github.com/
+rubygem-gettext-doc	Ruby or LGPLv3+	http://ruby-gettext.github.com/
+rubygem-gettext_i18n_rails	MIT	https://github.com/grosser/gettext_i18n_rails
+rubygem-gettext_i18n_rails-doc	MIT	https://github.com/grosser/gettext_i18n_rails
+rubygem-gettext_i18n_rails_js	MIT	https://github.com/nubis/gettext_i18n_rails_js
+rubygem-gettext_i18n_rails_js-doc	MIT	https://github.com/nubis/gettext_i18n_rails_js
+rubygem-gitlab-sidekiq-fetcher	LGPL-3.0	https://gitlab.com/gitlab-org/sidekiq-reliable-fetch/
+rubygem-gitlab-sidekiq-fetcher-doc	LGPL-3.0	https://gitlab.com/gitlab-org/sidekiq-reliable-fetch/
+rubygem-globalid	MIT	http://www.rubyonrails.org
+rubygem-globalid-doc	MIT	http://www.rubyonrails.org
+rubygem-google-api-client	Apache-2.0	https://github.com/google/google-api-ruby-client
+rubygem-google-api-client-doc	Apache-2.0	https://github.com/google/google-api-ruby-client
+rubygem-google-cloud-env	Apache-2.0	https://github.com/googleapis/google-cloud-ruby/tree/master/google-cloud-env
+rubygem-google-cloud-env-doc	Apache-2.0	https://github.com/googleapis/google-cloud-ruby/tree/master/google-cloud-env
+rubygem-googleauth	Apache-2.0	https://github.com/google/google-auth-library-ruby
+rubygem-googleauth-doc	Apache-2.0	https://github.com/google/google-auth-library-ruby
+rubygem-graphql	MIT	http://github.com/rmosolgo/graphql-ruby
+rubygem-graphql-batch	MIT	https://github.com/Shopify/graphql-batch
+rubygem-graphql-batch-doc	MIT	https://github.com/Shopify/graphql-batch
+rubygem-graphql-doc	MIT	http://github.com/rmosolgo/graphql-ruby
+rubygem-gssapi	MIT	http://github.com/zenchild/gssapi
+rubygem-gssapi-doc	MIT	http://github.com/zenchild/gssapi
+rubygem-hammer_cli	GPLv3	https://github.com/theforeman/hammer-cli
+rubygem-hammer_cli-doc	GPLv3	https://github.com/theforeman/hammer-cli
+rubygem-hammer_cli_foreman	GPLv3+	https://github.com/theforeman/hammer-cli-foreman
+rubygem-hammer_cli_foreman-doc	GPLv3+	https://github.com/theforeman/hammer-cli-foreman
+rubygem-hammer_cli_foreman_remote_execution	GPLv3+	https://github.com/theforeman/hammer_cli_foreman_remote_execution
+rubygem-hammer_cli_foreman_remote_execution-doc	GPLv3+	https://github.com/theforeman/hammer_cli_foreman_remote_execution
+rubygem-hammer_cli_foreman_tasks	GPLv3+	https://github.com/theforeman/hammer-cli-foreman-tasks
+rubygem-hammer_cli_foreman_tasks-doc	GPLv3+	https://github.com/theforeman/hammer-cli-foreman-tasks
+rubygem-hashie	MIT	https://github.com/intridea/hashie
+rubygem-hashie-doc	MIT	https://github.com/intridea/hashie
+rubygem-highline	GPLv2+ or Ruby	https://github.com/JEG2/highline
+rubygem-highline-doc	GPLv2+ or Ruby	https://github.com/JEG2/highline
+rubygem-hirb	MIT	http://tagaholic.me/hirb/
+rubygem-hirb-doc	MIT	http://tagaholic.me/hirb/
+rubygem-hirb-unicode-steakknife		MIT
+rubygem-hirb-unicode-steakknife-doc		MIT
+rubygem-hocon	ASL 2.0	https://github.com/puppetlabs/ruby-hocon
+rubygem-hocon-doc	ASL 2.0	https://github.com/puppetlabs/ruby-hocon
+rubygem-http-cookie	MIT	https://github.com/sparklemotion/http-cookie
+rubygem-http-cookie-doc	MIT	https://github.com/sparklemotion/http-cookie
+rubygem-httpclient	Ruby	https://github.com/nahi/httpclient
+rubygem-httpclient-doc	Ruby	https://github.com/nahi/httpclient
+rubygem-i18n	MIT	http://github.com/svenfuchs/i18n
+rubygem-i18n-doc	MIT	http://github.com/svenfuchs/i18n
+rubygem-ipaddress	MIT	https://github.com/bluemonk/ipaddress
+rubygem-ipaddress-doc	MIT	https://github.com/bluemonk/ipaddress
+rubygem-journald-logger	MIT	https://github.com/sandfox-im/journald-logger
+rubygem-journald-logger-doc	MIT	https://github.com/sandfox-im/journald-logger
+rubygem-journald-native	LGPLv2	https://github.com/sandfoxme/journald-native
+rubygem-journald-native-debuginfo	LGPLv2	https://github.com/sandfoxme/journald-native
+rubygem-journald-native-debugsource	LGPLv2	https://github.com/sandfoxme/journald-native
+rubygem-journald-native-doc	LGPLv2	https://github.com/sandfoxme/journald-native
+rubygem-jquery-ui-rails	MIT	https://github.com/joliss/jquery-ui-rails
+rubygem-jquery-ui-rails-doc	MIT	https://github.com/joliss/jquery-ui-rails
+rubygem-jwt	MIT	https://github.com/jwt/ruby-jwt
+rubygem-jwt-doc	MIT	https://github.com/jwt/ruby-jwt
+rubygem-kafo	GPLv3+	https://github.com/theforeman/kafo
+rubygem-kafo-doc	GPLv3+	https://github.com/theforeman/kafo
+rubygem-kafo_parsers	GPLv3+	https://github.com/theforeman/kafo_parsers
+rubygem-kafo_parsers-doc	GPLv3+	https://github.com/theforeman/kafo_parsers
+rubygem-kafo_wizards	GPLv3+	https://github.com/theforeman/kafo_wizards
+rubygem-kafo_wizards-doc	GPLv3+	https://github.com/theforeman/kafo_wizards
+rubygem-ldap_fluff	GPLv2+ or Ruby	https://github.com/theforeman/ldap_fluff
+rubygem-ldap_fluff-doc	GPLv2+ or Ruby	https://github.com/theforeman/ldap_fluff
+rubygem-little-plugger	MIT	https://rubygems.org/gems/little-plugger
+rubygem-little-plugger-doc	MIT	https://rubygems.org/gems/little-plugger
+rubygem-locale	GPLv2 or Ruby	http://locale.rubyforge.org/
+rubygem-locale-doc	GPLv2 or Ruby	http://locale.rubyforge.org/
+rubygem-logging	MIT	https://rubygems.org/gems/logging
+rubygem-logging-doc	MIT	https://rubygems.org/gems/logging
+rubygem-logging-journald	MIT	https://github.com/lzap/logging-journald
+rubygem-logging-journald-doc	MIT	https://github.com/lzap/logging-journald
+rubygem-loofah	MIT	https://github.com/flavorjones/loofah
+rubygem-loofah-doc	MIT	https://github.com/flavorjones/loofah
+rubygem-mail	MIT	https://github.com/mikel/mail
+rubygem-mail-doc	MIT	https://github.com/mikel/mail
+rubygem-marcel	MIT and Apache-2.0	https://github.com/rails/marcel
+rubygem-marcel-doc	MIT and Apache-2.0	https://github.com/rails/marcel
+rubygem-memoist	MIT	https://github.com/matthewrudy/memoist
+rubygem-memoist-doc	MIT	https://github.com/matthewrudy/memoist
+rubygem-method_source	MIT	http://banisterfiend.wordpress.com
+rubygem-method_source-doc	MIT	http://banisterfiend.wordpress.com
+rubygem-mime-types	MIT	https://github.com/mime-types/ruby-mime-types/
+rubygem-mime-types-data	MIT	https://github.com/mime-types/mime-types-data/
+rubygem-mime-types-data-doc	MIT	https://github.com/mime-types/mime-types-data/
+rubygem-mime-types-doc	MIT	https://github.com/mime-types/ruby-mime-types/
+rubygem-mini_mime	MIT	https://github.com/discourse/mini_mime
+rubygem-mini_mime-doc	MIT	https://github.com/discourse/mini_mime
+rubygem-mini_portile2	MIT	https://github.com/flavorjones/mini_portile
+rubygem-mini_portile2-doc	MIT	https://github.com/flavorjones/mini_portile
+rubygem-msgpack	Apache 2.0	http://msgpack.org/
+rubygem-msgpack-debuginfo	Apache 2.0	http://msgpack.org/
+rubygem-msgpack-debugsource	Apache 2.0	http://msgpack.org/
+rubygem-msgpack-doc	Apache 2.0	http://msgpack.org/
+rubygem-multi_json	MIT	https://github.com/intridea/multi_json
+rubygem-multi_json-doc	MIT	https://github.com/intridea/multi_json
+rubygem-multipart-post	MIT	https://github.com/nicksieger/multipart-post
+rubygem-multipart-post-doc	MIT	https://github.com/nicksieger/multipart-post
+rubygem-mustermann	MIT	https://github.com/sinatra/mustermann
+rubygem-mustermann-doc	MIT	https://github.com/sinatra/mustermann
+rubygem-net-ldap	MIT	https://github.com/ruby-ldap/ruby-net-ldap
+rubygem-net-ldap-doc	MIT	https://github.com/ruby-ldap/ruby-net-ldap
+rubygem-net-ping	Artistic 2.0	https://github.com/chernesk/net-ping
+rubygem-net-ping-doc	Artistic 2.0	https://github.com/chernesk/net-ping
+rubygem-net-scp	MIT	http://net-ssh.rubyforge.org/scp
+rubygem-net-scp-doc	MIT	http://net-ssh.rubyforge.org/scp
+rubygem-net-ssh	MIT	https://github.com/net-ssh/net-ssh
+rubygem-net-ssh-doc	MIT	https://github.com/net-ssh/net-ssh
+rubygem-net_http_unix	Apache 2.0	http://github.com/puppetlabs/net_http_unix
+rubygem-net_http_unix-doc	Apache 2.0	http://github.com/puppetlabs/net_http_unix
+rubygem-netrc	MIT	https://github.com/geemus/netrc
+rubygem-netrc-doc	MIT	https://github.com/geemus/netrc
+rubygem-nio4r	MIT	https://github.com/socketry/nio4r
+rubygem-nio4r-debuginfo	MIT	https://github.com/socketry/nio4r
+rubygem-nio4r-debugsource	MIT	https://github.com/socketry/nio4r
+rubygem-nio4r-doc	MIT	https://github.com/socketry/nio4r
+rubygem-nokogiri	MIT	https://nokogiri.org
+rubygem-nokogiri-debuginfo	MIT	https://nokogiri.org
+rubygem-nokogiri-debugsource	MIT	https://nokogiri.org
+rubygem-nokogiri-doc	MIT	https://nokogiri.org
+rubygem-oauth	MIT	http://rubydoc.info/gems/oauth
+rubygem-oauth-doc	MIT	http://rubydoc.info/gems/oauth
+rubygem-optimist	MIT	http://manageiq.github.io/optimist/
+rubygem-optimist-doc	MIT	http://manageiq.github.io/optimist/
+rubygem-os	MIT	https://github.com/rdp/os
+rubygem-os-doc	MIT	https://github.com/rdp/os
+rubygem-ovirt-engine-sdk	ASL 2.0	http://ovirt.org
+rubygem-ovirt-engine-sdk-debuginfo	ASL 2.0	http://ovirt.org
+rubygem-ovirt-engine-sdk-debugsource	ASL 2.0	http://ovirt.org
+rubygem-ovirt-engine-sdk-doc	ASL 2.0	http://ovirt.org
+rubygem-paint	MIT	https://github.com/janlelis/paint
+rubygem-paint-doc	MIT	https://github.com/janlelis/paint
+rubygem-parallel	MIT	https://github.com/grosser/parallel
+rubygem-parallel-doc	MIT	https://github.com/grosser/parallel
+rubygem-parse-cron	MIT	https://github.com/siebertm/parse-cron
+rubygem-parse-cron-doc	MIT	https://github.com/siebertm/parse-cron
+rubygem-patternfly-sass	ASL 2.0	https://github.com/Patternfly/patternfly
+rubygem-patternfly-sass-doc	ASL 2.0	https://github.com/Patternfly/patternfly
+rubygem-pg	(BSD or Ruby) and PostgreSQL	https://github.com/ged/ruby-pg
+rubygem-pg-debuginfo	(GPLv2 or Ruby) and PostgreSQL	https://bitbucket.org/ged/ruby-pg
+rubygem-pg-debugsource	(GPLv2 or Ruby) and PostgreSQL	https://bitbucket.org/ged/ruby-pg
+rubygem-pg-doc	(BSD or Ruby) and PostgreSQL	https://github.com/ged/ruby-pg
+rubygem-po_to_json	MIT	https://github.com/nubis/po_to_json
+rubygem-po_to_json-doc	MIT	https://github.com/nubis/po_to_json
+rubygem-polyglot	MIT	http://github.com/cjheath/polyglot
+rubygem-polyglot-doc	MIT	http://github.com/cjheath/polyglot
+rubygem-powerbar	MIT	https://github.com/busyloop/powerbar
+rubygem-powerbar-doc	MIT	https://github.com/busyloop/powerbar
+rubygem-prometheus-client	ASL 2.0	https://github.com/prometheus/client_ruby
+rubygem-prometheus-client-doc	ASL 2.0	https://github.com/prometheus/client_ruby
+rubygem-promise.rb	Public Domain	https://github.com/lgierth/promise
+rubygem-promise.rb-doc	Public Domain	https://github.com/lgierth/promise
+rubygem-public_suffix	MIT	https://simonecarletti.com/code/publicsuffix-ruby
+rubygem-public_suffix-doc	MIT	https://simonecarletti.com/code/publicsuffix-ruby
+rubygem-puma	BSD-3-Clause	https://puma.io
+rubygem-puma-debuginfo	BSD-3-Clause	https://puma.io
+rubygem-puma-debugsource	BSD-3-Clause	https://puma.io
+rubygem-puma-doc	BSD-3-Clause	https://puma.io
+rubygem-puma-status	MIT	https://github.com/ylecuyer/puma-status
+rubygem-puma-status-doc	MIT	https://github.com/ylecuyer/puma-status
+rubygem-quantile	ASL 2.0	http://github.com/matttproud/ruby_quantile_estimation
+rubygem-quantile-doc	ASL 2.0	http://github.com/matttproud/ruby_quantile_estimation
+rubygem-rabl	MIT	https://github.com/nesquena/rabl
+rubygem-rabl-doc	MIT	https://github.com/nesquena/rabl
+rubygem-rack	MIT	https://rack.github.io/
+rubygem-rack-cors	MIT	https://github.com/cyu/rack-cors
+rubygem-rack-cors-doc	MIT	https://github.com/cyu/rack-cors
+rubygem-rack-doc	MIT	https://rack.github.io/
+rubygem-rack-jsonp	MIT	https://github.com/crohr/rack-jsonp
+rubygem-rack-jsonp-doc	MIT	https://github.com/crohr/rack-jsonp
+rubygem-rack-protection	MIT	http://www.sinatrarb.com/protection/
+rubygem-rack-protection-doc	MIT	http://www.sinatrarb.com/protection/
+rubygem-rack-test	MIT	http://github.com/rack-test/rack-test
+rubygem-rack-test-doc	MIT	http://github.com/rack-test/rack-test
+rubygem-rails	MIT	https://rubyonrails.org
+rubygem-rails-doc	MIT	https://rubyonrails.org
+rubygem-rails-dom-testing	MIT	https://github.com/rails/rails-dom-testing
+rubygem-rails-dom-testing-doc	MIT	https://github.com/rails/rails-dom-testing
+rubygem-rails-html-sanitizer	MIT	https://github.com/rails/rails-html-sanitizer
+rubygem-rails-html-sanitizer-doc	MIT	https://github.com/rails/rails-html-sanitizer
+rubygem-rails-i18n	MIT	https://github.com/svenfuchs/rails-i18n
+rubygem-rails-i18n-doc	MIT	https://github.com/svenfuchs/rails-i18n
+rubygem-railties	MIT	https://rubyonrails.org
+rubygem-railties-doc	MIT	https://rubyonrails.org
+rubygem-rainbow	MIT	https://github.com/sickill/rainbow
+rubygem-rainbow-doc	MIT	https://github.com/sickill/rainbow
+rubygem-rake-compiler	MIT	https://github.com/rake-compiler/rake-compiler
+rubygem-rake-compiler-doc	MIT	https://github.com/rake-compiler/rake-compiler
+rubygem-rb-inotify	MIT	https://github.com/guard/rb-inotify
+rubygem-rb-inotify-doc	MIT	https://github.com/guard/rb-inotify
+rubygem-rbvmomi	MIT	https://github.com/vmware/rbvmomi
+rubygem-rbvmomi-doc	MIT	https://github.com/vmware/rbvmomi
+rubygem-redfish_client	Apache-2.0	https://github.com/xlab-si/redfish-client-ruby
+rubygem-redfish_client-doc	Apache-2.0	https://github.com/xlab-si/redfish-client-ruby
+rubygem-redis	MIT	https://github.com/redis/redis-rb
+rubygem-redis-doc	MIT	https://github.com/redis/redis-rb
+rubygem-representable	MIT	https://github.com/trailblazer/representable/
+rubygem-representable-doc	MIT	https://github.com/trailblazer/representable/
+rubygem-responders	MIT	https://github.com/plataformatec/responders
+rubygem-responders-doc	MIT	https://github.com/plataformatec/responders
+rubygem-rest-client	MIT	https://github.com/rest-client/rest-client
+rubygem-rest-client-doc	MIT	https://github.com/rest-client/rest-client
+rubygem-retriable	MIT	https://github.com/kamui/retriable
+rubygem-retriable-doc	MIT	https://github.com/kamui/retriable
+rubygem-rkerberos	Artistic 2.0	http://github.com/domcleal/rkerberos
+rubygem-rkerberos-debuginfo	Artistic 2.0	http://github.com/domcleal/rkerberos
+rubygem-rkerberos-debugsource	Artistic 2.0	http://github.com/domcleal/rkerberos
+rubygem-rkerberos-doc	Artistic 2.0	http://github.com/domcleal/rkerberos
+rubygem-roadie	MIT	https://github.com/Mange/roadie
+rubygem-roadie-doc	MIT	https://github.com/Mange/roadie
+rubygem-roadie-rails	MIT	https://github.com/Mange/roadie-rails
+rubygem-roadie-rails-doc	MIT	https://github.com/Mange/roadie-rails
+rubygem-rsec	Ruby or BSD	http://rsec.herokuapp.com
+rubygem-rsec-doc	Ruby or BSD	http://rsec.herokuapp.com
+rubygem-ruby-libvirt	LGPLv2+	https://libvirt.org/ruby/
+rubygem-ruby-libvirt-debuginfo	LGPLv2+	https://libvirt.org/ruby/
+rubygem-ruby-libvirt-debugsource	LGPLv2+	https://libvirt.org/ruby/
+rubygem-ruby-libvirt-doc	LGPLv2+	https://libvirt.org/ruby/
+rubygem-ruby2_keywords	Ruby and BSD-2-Clause	https://github.com/ruby/ruby2_keywords
+rubygem-ruby2_keywords-doc	Ruby and BSD-2-Clause	https://github.com/ruby/ruby2_keywords
+rubygem-ruby2ruby	MIT	https://github.com/seattlerb/ruby2ruby
+rubygem-ruby2ruby-doc	MIT	https://github.com/seattlerb/ruby2ruby
+rubygem-ruby_parser	MIT	https://github.com/seattlerb/ruby_parser
+rubygem-ruby_parser-doc	MIT	https://github.com/seattlerb/ruby_parser
+rubygem-rubyipmi	LGPLv2	https://github.com/logicminds/rubyipmi
+rubygem-rubyipmi-doc	LGPLv2	https://github.com/logicminds/rubyipmi
+rubygem-safemode	MIT	https://github.com/svenfuchs/safemode
+rubygem-safemode-doc	MIT	https://github.com/svenfuchs/safemode
+rubygem-sass	MIT	http://sass-lang.com/
+rubygem-sass-doc	MIT	http://sass-lang.com/
+rubygem-sass-rails	MIT	https://github.com/rails/sass-rails
+rubygem-sass-rails-doc	MIT	https://github.com/rails/sass-rails
+rubygem-sassc	MIT	https://github.com/sass/sassc-ruby
+rubygem-sassc-doc	MIT	https://github.com/sass/sassc-ruby
+rubygem-sassc-rails	MIT	https://github.com/sass/sassc-rails
+rubygem-sassc-rails-doc	MIT	https://github.com/sass/sassc-rails
+rubygem-scoped_search	MIT	https://github.com/wvanbergen/scoped_search/wiki
+rubygem-scoped_search-doc	MIT	https://github.com/wvanbergen/scoped_search/wiki
+rubygem-sd_notify	MIT	https://github.com/agis/ruby-sdnotify
+rubygem-sd_notify-doc	MIT	https://github.com/agis/ruby-sdnotify
+rubygem-secure_headers	ASL 2.0	https://github.com/twitter/secureheaders
+rubygem-secure_headers-doc	ASL 2.0	https://github.com/twitter/secureheaders
+rubygem-sequel	MIT	http://sequel.jeremyevans.net
+rubygem-sequel-doc	MIT	http://sequel.jeremyevans.net
+rubygem-server_sent_events	Apache-2.0	https://github.com/xlab-si/server-sent-events-ruby
+rubygem-server_sent_events-doc	Apache-2.0	https://github.com/xlab-si/server-sent-events-ruby
+rubygem-sexp_processor	MIT	https://github.com/seattlerb/sexp_processor
+rubygem-sexp_processor-doc	MIT	https://github.com/seattlerb/sexp_processor
+rubygem-sidekiq	LGPL-3.0	http://sidekiq.org
+rubygem-sidekiq-doc	LGPL-3.0	http://sidekiq.org
+rubygem-signet	Apache-2.0	https://github.com/google/signet/
+rubygem-signet-doc	Apache-2.0	https://github.com/google/signet/
+rubygem-sinatra	MIT	http://www.sinatrarb.com/
+rubygem-sinatra-doc	MIT	http://www.sinatrarb.com/
+rubygem-smart_proxy_pulp	GPLv3	https://github.com/theforeman/smart-proxy-pulp-plugin
+rubygem-smart_proxy_pulp-doc	GPLv3	https://github.com/theforeman/smart-proxy-pulp-plugin
+rubygem-spice-html5-rails	GPLv2+ or Ruby	http://www.spice-space.org
+rubygem-spice-html5-rails-doc	GPLv2+ or Ruby	http://www.spice-space.org
+rubygem-sprockets	MIT	https://github.com/rails/sprockets
+rubygem-sprockets-doc	MIT	https://github.com/rails/sprockets
+rubygem-sprockets-rails	MIT	https://github.com/rails/sprockets-rails
+rubygem-sprockets-rails-doc	MIT	https://github.com/rails/sprockets-rails
+rubygem-sqlite3	BSD-3	https://github.com/sparklemotion/sqlite3-ruby
+rubygem-sqlite3-debuginfo	BSD-3	https://github.com/sparklemotion/sqlite3-ruby
+rubygem-sqlite3-debugsource	BSD-3	https://github.com/sparklemotion/sqlite3-ruby
+rubygem-sqlite3-doc	BSD-3	https://github.com/sparklemotion/sqlite3-ruby
+rubygem-sshkey	MIT	https://github.com/bensie/sshkey
+rubygem-sshkey-doc	MIT	https://github.com/bensie/sshkey
+rubygem-statsd-instrument	MIT	https://github.com/Shopify/statsd-instrument
+rubygem-statsd-instrument-doc	MIT	https://github.com/Shopify/statsd-instrument
+rubygem-text	MIT	https://github.com/threedaymonk/text
+rubygem-text-doc	MIT	https://github.com/threedaymonk/text
+rubygem-thor	MIT	http://whatisthor.com/
+rubygem-thor-doc	MIT	http://whatisthor.com/
+rubygem-thread_safe	Apache-2.0	https://github.com/ruby-concurrency/thread_safe
+rubygem-thread_safe-doc	Apache-2.0	https://github.com/ruby-concurrency/thread_safe
+rubygem-tilt	MIT	http://github.com/rtomayko/tilt/
+rubygem-tilt-doc	MIT	http://github.com/rtomayko/tilt/
+rubygem-tzinfo	MIT	http://tzinfo.github.io
+rubygem-tzinfo-doc	MIT	http://tzinfo.github.io
+rubygem-uber	MIT	https://github.com/apotonick/uber
+rubygem-uber-doc	MIT	https://github.com/apotonick/uber
+rubygem-uglifier	MIT	http://github.com/lautis/uglifier
+rubygem-uglifier-doc	MIT	http://github.com/lautis/uglifier
+rubygem-unf	MIT	https://github.com/knu/ruby-unf
+rubygem-unf-doc	MIT	https://github.com/knu/ruby-unf
+rubygem-unf_ext	MIT	https://github.com/knu/ruby-unf_ext
+rubygem-unf_ext-debuginfo	MIT	https://github.com/knu/ruby-unf_ext
+rubygem-unf_ext-debugsource	MIT	https://github.com/knu/ruby-unf_ext
+rubygem-unf_ext-doc	MIT	https://github.com/knu/ruby-unf_ext
+rubygem-unicode	Ruby	http://www.yoshidam.net/Ruby.html#unicode
+rubygem-unicode-debuginfo	Ruby	http://www.yoshidam.net/Ruby.html#unicode
+rubygem-unicode-debugsource	Ruby	http://www.yoshidam.net/Ruby.html#unicode
+rubygem-unicode-display_width	MIT	https://github.com/janlelis/unicode-display_width
+rubygem-unicode-display_width-doc	MIT	https://github.com/janlelis/unicode-display_width
+rubygem-unicode-doc	Ruby	http://www.yoshidam.net/Ruby.html#unicode
+rubygem-validates_lengths_from_database	MIT	https://github.com/rubiety/validates_lengths_from_database
+rubygem-validates_lengths_from_database-doc	MIT	https://github.com/rubiety/validates_lengths_from_database
+rubygem-webpack-rails	MIT	https://github.com/mipearson/webpack-rails
+rubygem-webpack-rails-doc	MIT	https://github.com/mipearson/webpack-rails
+rubygem-websocket-driver	MIT	https://github.com/faye/websocket-driver-ruby
+rubygem-websocket-driver-debuginfo	MIT	https://github.com/faye/websocket-driver-ruby
+rubygem-websocket-driver-debugsource	MIT	https://github.com/faye/websocket-driver-ruby
+rubygem-websocket-driver-doc	MIT	https://github.com/faye/websocket-driver-ruby
+rubygem-websocket-extensions	MIT	https://github.com/faye/websocket-extensions-ruby
+rubygem-websocket-extensions-doc	MIT	https://github.com/faye/websocket-extensions-ruby
+rubygem-will_paginate	MIT	https://github.com/mislav/will_paginate
+rubygem-will_paginate-doc	MIT	https://github.com/mislav/will_paginate
+rubygem-wirb	MIT	https://github.com/janlelis/wirb
+rubygem-wirb-doc	MIT	https://github.com/janlelis/wirb
+rubygem-xmlrpc	Ruby or BSD	http://ruby-lang.org/
+rubygem-xmlrpc-doc	Ruby	https://github.com/ruby/xmlrpc
+rubygem-zeitwerk	MIT	https://github.com/fxn/zeitwerk
+rubygem-zeitwerk-doc	MIT	https://github.com/fxn/zeitwerk
+subscription-manager	GPLv2	http://www.candlepinproject.org/
+subscription-manager-cockpit	GPLv2	http://www.candlepinproject.org/
+subscription-manager-debuginfo	GPLv2	http://www.candlepinproject.org/
+subscription-manager-debugsource	GPLv2	http://www.candlepinproject.org/
+subscription-manager-initial-setup-addon	GPLv2	http://www.candlepinproject.org/
+subscription-manager-migration	GPLv2	http://www.candlepinproject.org/
+subscription-manager-migration-data	CC0	http://redhat.com
+subscription-manager-plugin-ostree	GPLv2	http://www.candlepinproject.org/
+subscription-manager-rhsm-certificates	GPLv2	http://www.candlepinproject.org/
+tracer-common	GPLv2+	http://tracer-package.com/
+yggdrasil	GPLv3	https://github.com/redhatinsights/yggdrasil

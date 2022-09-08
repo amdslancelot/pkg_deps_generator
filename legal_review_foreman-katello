@@ -1,0 +1,124 @@
+candlepin	GPLv2	http://www.candlepinproject.org
+candlepin-selinux	GPLv2	http://www.candlepinproject.org
+foreman-proxy-content	GPLv2	https://theforeman.org/plugins/katello
+katello	GPLv2	https://theforeman.org/plugins/katello
+katello-client-bootstrap	LGPLv2	http://www.katello.org
+katello-common	GPLv2	https://theforeman.org/plugins/katello
+katello-debug	GPLv2	https://theforeman.org/plugins/katello
+katello-repos	GPLv2	https://theforeman.org/plugins/katello/
+katello-selinux	GPLv3+	http://www.katello.org
+libwebsockets	LGPLv2 and Public Domain and BSD and MIT and zlib	http://libwebsockets.org
+libwebsockets-debuginfo	LGPLv2 and Public Domain and BSD and MIT and zlib	http://libwebsockets.org
+libwebsockets-debugsource	LGPLv2 and Public Domain and BSD and MIT and zlib	http://libwebsockets.org
+libwebsockets-devel	LGPLv2 and Public Domain and BSD and MIT and zlib	http://libwebsockets.org
+libwebsockets-tests	LGPLv2 and Public Domain and BSD and MIT and zlib	http://libwebsockets.org
+libwebsockets-tests-debuginfo	LGPLv2 and Public Domain and BSD and MIT and zlib	http://libwebsockets.org
+nodejs-angular	MIT	http://angularjs.org
+nodejs-bootstrap-select	MIT	https://developer.snapappointments.com/bootstrap-select
+nodejs-decode-uri-component	MIT	https://github.com/SamVerschueren/decode-uri-component#readme
+nodejs-downshift	MIT	https://github.com/downshift-js/downshift#readme
+nodejs-ngreact	MIT	http://davidchang.github.io/ngReact/
+nodejs-query-string	MIT	https://github.com/sindresorhus/query-string#readme
+nodejs-strict-uri-encode	MIT	https://github.com/kevva/strict-uri-encode#readme
+package "python-qpid-proton-docs" is already released by oracle. skipping.
+python2-qpid	ASL 2.0	http://qpid.apache.org
+python2-qpid-qmf	ASL 2.0	http://qpid.apache.org
+python2-saslwrapper	ASL 2.0	http://qpid.apache.org
+python2-saslwrapper-debuginfo	ASL 2.0	http://qpid.apache.org
+package "python3-qpid-proton" is already released by oracle. skipping.
+python3-qpid-proton-debuginfo	ASL 2.0	http://qpid.apache.org/proton/
+qpid-cpp-client	ASL 2.0	http://qpid.apache.org
+qpid-cpp-client-debuginfo	ASL 2.0	http://qpid.apache.org
+qpid-cpp-client-devel	ASL 2.0	http://qpid.apache.org
+qpid-cpp-client-devel-debuginfo	ASL 2.0	http://qpid.apache.org
+qpid-cpp-client-docs	ASL 2.0	http://qpid.apache.org
+qpid-cpp-client-rdma	ASL 2.0	http://qpid.apache.org
+qpid-cpp-client-rdma-debuginfo	ASL 2.0	http://qpid.apache.org
+qpid-cpp-debuginfo	ASL 2.0	http://qpid.apache.org
+qpid-cpp-debugsource	ASL 2.0	http://qpid.apache.org
+qpid-cpp-server	ASL 2.0	http://qpid.apache.org
+qpid-cpp-server-debuginfo	ASL 2.0	http://qpid.apache.org
+qpid-cpp-server-ha	ASL 2.0	http://qpid.apache.org
+qpid-cpp-server-ha-debuginfo	ASL 2.0	http://qpid.apache.org
+qpid-cpp-server-linearstore	ASL 2.0	http://qpid.apache.org
+qpid-cpp-server-linearstore-debuginfo	ASL 2.0	http://qpid.apache.org
+qpid-cpp-server-rdma	ASL 2.0	http://qpid.apache.org
+qpid-cpp-server-rdma-debuginfo	ASL 2.0	http://qpid.apache.org
+qpid-dispatch-console	ASL 2.0	http://qpid.apache.org/
+qpid-dispatch-debugsource	ASL 2.0	http://qpid.apache.org/
+qpid-dispatch-docs	ASL 2.0	http://qpid.apache.org/
+qpid-dispatch-router	ASL 2.0	http://qpid.apache.org/
+qpid-dispatch-router-debuginfo	ASL 2.0	http://qpid.apache.org/
+qpid-dispatch-tools	ASL 2.0	http://qpid.apache.org/
+package "qpid-proton-c" is already released by oracle. skipping.
+qpid-proton-c-debuginfo	ASL 2.0	http://qpid.apache.org/proton/
+package "qpid-proton-c-devel" is already released by oracle. skipping.
+package "qpid-proton-c-docs" is already released by oracle. skipping.
+package "qpid-proton-cpp" is already released by oracle. skipping.
+qpid-proton-cpp-debuginfo	ASL 2.0	http://qpid.apache.org/proton/
+package "qpid-proton-cpp-devel" is already released by oracle. skipping.
+package "qpid-proton-cpp-docs" is already released by oracle. skipping.
+qpid-proton-debuginfo	ASL 2.0	http://qpid.apache.org/proton/
+qpid-proton-debugsource	ASL 2.0	http://qpid.apache.org/proton/
+package "qpid-proton-tests" is already released by oracle. skipping.
+qpid-qmf	ASL 2.0	http://qpid.apache.org
+qpid-qmf-debuginfo	ASL 2.0	http://qpid.apache.org
+qpid-qmf-devel	ASL 2.0	http://qpid.apache.org
+qpid-tests	ASL 2.0	http://qpid.apache.org
+qpid-tools	ASL 2.0	http://qpid.apache.org
+rubygem-activerecord-import	Ruby	http://github.com/zdennis/activerecord-import
+rubygem-activerecord-import-doc	Ruby	http://github.com/zdennis/activerecord-import
+rubygem-anemone	MIT	http://anemone.rubyforge.org/
+rubygem-ethon	MIT	https://github.com/typhoeus/ethon
+rubygem-ethon-doc	MIT	https://github.com/typhoeus/ethon
+rubygem-foreman_kernel_care	GPLv3	https://github.com/maccelf/foreman_kernel_care
+rubygem-foreman_kernel_care-doc	GPLv3	https://github.com/maccelf/foreman_kernel_care
+rubygem-fx	MIT	https://github.com/teoljungberg/fx
+rubygem-fx-doc	MIT	https://github.com/teoljungberg/fx
+rubygem-hammer_cli_csv	GPLv3	https://github.com/Katello/hammer-cli-csv
+rubygem-hammer_cli_csv-doc	GPLv3	https://github.com/Katello/hammer-cli-csv
+rubygem-hammer_cli_foreman_rh_cloud	GPLv3	https://github.com/theforeman/hammer-cli-foreman-rh-cloud
+rubygem-hammer_cli_foreman_rh_cloud-doc	GPLv3	https://github.com/theforeman/hammer-cli-foreman-rh-cloud
+rubygem-hammer_cli_foreman_scc_manager	GPLv3	https://github.com/ATIX-AG/hammer-cli-foreman-scc-manager
+rubygem-hammer_cli_foreman_scc_manager-doc	GPLv3	https://github.com/ATIX-AG/hammer-cli-foreman-scc-manager
+rubygem-hammer_cli_foreman_virt_who_configure	GPLv3	https://github.com/theforeman/hammer-cli-foreman-virt-who-configure
+rubygem-hammer_cli_foreman_virt_who_configure-doc	GPLv3	https://github.com/theforeman/hammer-cli-foreman-virt-who-configure
+rubygem-hammer_cli_katello	GPLv3	https://github.com/Katello/hammer-cli-katello
+rubygem-hammer_cli_katello-doc	GPLv3	https://github.com/Katello/hammer-cli-katello
+rubygem-katello	GPLv2	https://theforeman.org/plugins/katello
+rubygem-katello-assets	GPLv2	https://theforeman.org/plugins/katello
+rubygem-katello-doc	GPLv2	https://theforeman.org/plugins/katello
+rubygem-pulp_ansible_client	GPL-2.0+	https://github.com/pulp/pulp_ansible/
+rubygem-pulp_ansible_client-doc	GPL-2.0+	https://github.com/pulp/pulp_ansible/
+rubygem-pulp_certguard_client	GPL-2.0+	https://github.com/pulp/pulp-certguard
+rubygem-pulp_certguard_client-doc	GPL-2.0+	https://github.com/pulp/pulp-certguard
+rubygem-pulp_container_client	GPLv2+	https://github.com/pulp/pulp_container/
+rubygem-pulp_container_client-doc	GPLv2+	https://github.com/pulp/pulp_container/
+rubygem-pulp_deb_client	GPL-2.0+	https://github.com/pulp/pulp_deb/
+rubygem-pulp_deb_client-doc	GPL-2.0+	https://github.com/pulp/pulp_deb/
+rubygem-pulp_file_client	GPLv2	https://openapi-generator.tech
+rubygem-pulp_file_client-doc	GPLv2	https://openapi-generator.tech
+rubygem-pulp_ostree_client	GPL-2.0+	https://github.com/pulp/pulp_ostree
+rubygem-pulp_ostree_client-doc	GPL-2.0+	https://github.com/pulp/pulp_ostree
+rubygem-pulp_python_client	GPL-2.0+	https://openapi-generator.tech
+rubygem-pulp_python_client-doc	GPL-2.0+	https://openapi-generator.tech
+rubygem-pulp_rpm_client	GPLv2	https://github.com/pulp/pulp_rpm/
+rubygem-pulp_rpm_client-doc	GPLv2	https://github.com/pulp/pulp_rpm/
+rubygem-pulpcore_client	GPLv2	https://openapi-generator.tech
+rubygem-pulpcore_client-doc	GPLv2	https://openapi-generator.tech
+package "rubygem-qpid_proton" is already released by oracle. skipping.
+rubygem-qpid_proton-debuginfo	ASL 2.0	http://qpid.apache.org/proton/
+rubygem-robotex	MIT	https://www.github.com/chriskite/robotex
+rubygem-robotex-doc	MIT	https://www.github.com/chriskite/robotex
+rubygem-runcible	MIT	https://github.com/Katello/runcible
+rubygem-runcible-doc	MIT	https://github.com/Katello/runcible
+rubygem-stomp	Apache-2.0	https://github.com/stompgem/stomp
+rubygem-stomp-doc	Apache-2.0	https://github.com/stompgem/stomp
+rubygem-typhoeus	MIT	https://github.com/typhoeus/typhoeus
+rubygem-typhoeus-doc	MIT	https://github.com/typhoeus/typhoeus
+rubygem-zest	GPLv2	https://github.com/swagger-api/swagger-codegen
+rubygem-zest-doc	GPLv2	https://github.com/swagger-api/swagger-codegen
+saslwrapper	ASL 2.0	http://qpid.apache.org
+saslwrapper-debuginfo	ASL 2.0	http://qpid.apache.org
+saslwrapper-debugsource	ASL 2.0	http://qpid.apache.org
+saslwrapper-devel	ASL 2.0	http://qpid.apache.org
