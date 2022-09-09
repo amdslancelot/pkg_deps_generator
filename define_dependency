@@ -1,0 +1,46 @@
+#!/bin/bash
+PKGKEYWORD=$1
+SPECFILE=$2
+REQTYPE=$3
+
+DEBUG=0
+tabs 60
+
+function debug {
+	if [[ $DEBUG == 1 ]]; then
+		echo -e $1
+	fi
+}
+
+
+
+#
+#
+#
+if [ -z $PKGKEYWORD ] || [ -z $SPECFILE ] || [ -z $REQTYPE ]; then
+	echo "[ERROR] usage: define_dependency PARTIAL_PKG_STRING PATH_TO_SPECFILE BUILDREQUIRES_OR_REQUIRES"
+	exit
+fi
+
+debug "PKGKEYWORD=$PKGKEYWORD"
+pkg_type=""
+#rubygems
+if [[ "$PKGKEYWORD" == *"rubygem-"* ]]; then
+	debug "$PKGKEYWORD is a rubygem package."
+	pkg_type="rubygem"
+	PKGKEYWORD=$(echo $PKGKEYWORD | sed "s@rubygem-@@g")
+fi
+#nodejs
+if [[ "$PKGKEYWORD" == *"nodejs-"* ]]; then
+	debug "$PKGKEYWORD is a npm package."
+	pkg_type="npm"
+	PKGKEYWORD=$(echo $PKGKEYWORD | sed "s@nodejs-@@g")
+fi
+debug "keyword to match: $PKGKEYWORD"
+
+while read -r l; do
+	if [[ "$l" == *"$pkg_type"* ]] && [[ "$l" == *"$PKGKEYWORD"* ]]; then
+		exit 0
+	fi
+done < <(rpmspec -P $SPECFILE | grep ^$REQTYPE)
+exit 1

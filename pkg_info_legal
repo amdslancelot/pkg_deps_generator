@@ -1,9 +1,9 @@
 #!/bin/bash
 INPUT_FILE=$1
-NARROW_PKG_NAME=$2
+SPECFILE_PATH=$2
+NARROW_PKG_NAME=$3
 
 DEBUG=0
-tabs 60
 
 function debug {
 	if [[ $DEBUG == 1 ]]; then
@@ -21,10 +21,28 @@ while read -r l; do
 	NAME=$(./package_name_parser $NAME_WITH_VERSION)
 	debug "\n------\nname=$NAME"
 
+	#Skip modules.yaml
+	[ "$NAME" == "modules.yaml" ] && continue
+
 	# Test: limit to the package name want to be tested
 	if [ ! -z $NARROW_PKG_NAME ] && [ $NAME != $NARROW_PKG_NAME ]; then
 		continue
 	fi
+
+	builddep="no"
+	debug "command: ./define_dependency $NAME $SPECFILE_PATH BuildRequires"
+	if ./define_dependency $NAME $SPECFILE_PATH BuildRequires; then
+		#Is BuildRequires
+		builddep="Build"
+	fi
+
+	runtimedep="no"
+	debug "command: ./define_dependency $NAME $SPECFILE_PATH Requires"
+	if ./define_dependency $NAME $SPECFILE_PATH Requires; then
+		#Is Requires
+		runtimedep="Runtime"
+	fi
+
 
 	DNF_INFO=$(dnf info $NAME)
 	debug "dnf_info:"
@@ -39,7 +57,7 @@ while read -r l; do
 	fi
 
 	DNF_INFO_ARR=($(echo "$DNF_INFO" | grep "License      : \|URL          : "))
-	debug "${DNF_INFO_ARR[@]}"
+	#debug "${DNF_INFO_ARR[@]}" #doesn't work
 
 	# Skip if can't find package
 	if [ "${DNF_INFO_ARR[0]}" == "Error:" ]; then
@@ -51,7 +69,11 @@ while read -r l; do
 	debug "url=$URL"
 	LICENSE=${DNF_INFO_ARR[@]:5}
 	debug "license=$LICENSE"
+	debug ${#LICENSE}
+	debug "$(echo $LICENSE | od -c)"
 
-	echo -e "$NAME\t$LICENSE\t$URL"
-
+	#echo -e "$NAME\t$LICENSE\t$URL\t$builddep\t$runtimedep"
+	row_format='%-60s %-28s %s  %-6s %-8s\n'
+	printf "$row_format" "$NAME" "$LICENSE" "$URL" "$builddep" "$runtimedep"
+                                                                                                                                                                                                       
 done < <(cat $INPUT_FILE)
