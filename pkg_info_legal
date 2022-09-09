@@ -1,7 +1,17 @@
 #!/bin/bash
+
+#############################################################################################################
+# 1. Take rpm list from a repo
+# 2. Take the rpm package name to look up a expanded spec file dependency statement to see if there's a match
+#    (BuildRequires/Requires)
+# 3. Run dnf info to get license and upstream source
+# 4. Generate a report of:
+#    PKG_NAME   LICENSE  UPSTREAM_SOURCE   IS_BUILDREQUIRES IS_REQUIRES
+#############################################################################################################
+
 RPM_LIST_PATH=$1
 SPECFILE_PATH=$2
-NARROW_PKG_NAME=$3
+NARROW_PKG_NAME=$(echo $3 | tr '[:upper:]' '[:lower:]')
 
 DEBUG=0
 
@@ -69,8 +79,8 @@ while IFS= read -r l; do
 	debug "url=$URL"
 	LICENSE=${DNF_INFO_ARR[@]:5}
 	debug "license=$LICENSE"
-	debug ${#LICENSE}
-	debug "$(echo $LICENSE | od -c)"
+	#debug ${#LICENSE}
+	#debug "$(echo $LICENSE | od -c)"
 
 	#echo -e "$NAME\t$LICENSE\t$URL\t$builddep\t$runtimedep"
 	row_format='%-60s %-28s %s  %-6s %-8s\n'

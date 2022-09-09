@@ -1,4 +1,15 @@
 #!/bin/bash
+
+#############################################################################################################
+# 1. Take  a expanded spec file and grep by one of the dependency statement (BuildRequires/Requires)
+# 2. Take the dependency statement to look up dnf to get the actual pkg_name
+# 3. Look up pkg_name rpm list from a repo to see if the package name is in there
+# 3. Run "dnf info pkg_name" to get license and upstream source
+# 4. Generate a report of:
+#    PKG_NAME   LICENSE  UPSTREAM_SOURCE   BUILDREQUIRES/REQUIRES
+#############################################################################################################
+
+
 SPECFILE=$1
 REQTYPE=$2
 RPM_LIST=$3

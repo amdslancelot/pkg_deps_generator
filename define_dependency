@@ -2,6 +2,7 @@
 PKGKEYWORD=$1
 SPECFILE=$2
 REQTYPE=$3
+SPECFILE_MACROS="python3_pkgversion 39"
 
 DEBUG=0
 tabs 60
@@ -39,8 +40,9 @@ fi
 debug "keyword to match: $PKGKEYWORD"
 
 while read -r l; do
-	if [[ "$l" == *"$pkg_type"* ]] && [[ "$l" == *"$PKGKEYWORD"* ]]; then
+	debug "$l"
+	if [[ "$l" == *"$pkg_type"* ]] && [[ "$(echo $l | tr '[:upper:]' '[:lower:]')" == *"$PKGKEYWORD"* ]]; then
 		exit 0
 	fi
-done < <(rpmspec -P $SPECFILE | grep ^$REQTYPE)
+done < <(rpmspec -P $SPECFILE -D "$SPECFILE_MACROS" | grep ^$REQTYPE)
 exit 1
