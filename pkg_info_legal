@@ -1,5 +1,5 @@
 #!/bin/bash
-INPUT_FILE=$1
+RPM_LIST_PATH=$1
 SPECFILE_PATH=$2
 NARROW_PKG_NAME=$3
 
@@ -12,7 +12,7 @@ function debug {
 }
 
 
-while read -r l; do
+while IFS= read -r l; do
 
 	# Skip if is empty line
 	[ -z "$l" ] && continue
@@ -21,13 +21,13 @@ while read -r l; do
 	NAME=$(./package_name_parser $NAME_WITH_VERSION)
 	debug "\n------\nname=$NAME"
 
-	#Skip modules.yaml
-	[ "$NAME" == "modules.yaml" ] && continue
-
 	# Test: limit to the package name want to be tested
 	if [ ! -z $NARROW_PKG_NAME ] && [ $NAME != $NARROW_PKG_NAME ]; then
 		continue
 	fi
+
+	#Skip modules.yaml
+	[ "$NAME" == "modules.yaml" ] && continue
 
 	builddep="no"
 	debug "command: ./define_dependency $NAME $SPECFILE_PATH BuildRequires"
@@ -76,4 +76,4 @@ while read -r l; do
 	row_format='%-60s %-28s %s  %-6s %-8s\n'
 	printf "$row_format" "$NAME" "$LICENSE" "$URL" "$builddep" "$runtimedep"
                                                                                                                                                                                                        
-done < <(cat $INPUT_FILE)
+done < <(cat $RPM_LIST_PATH)

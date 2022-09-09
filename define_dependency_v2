@@ -4,6 +4,7 @@ REQTYPE=$2
 RPM_LIST=$3
 
 DEBUG=0
+INFO=0
 tabs 60
 
 function debug {
@@ -12,6 +13,11 @@ function debug {
 	fi
 }
 
+function info {
+	if [[ $INFO == 1 ]]; then
+		echo -e $1
+	fi
+}
 
 
 #
@@ -46,16 +52,52 @@ while IFS= read -r l; do
 		#debug "$ll"
 		pkgname_with_ver_from_file=$(echo "$ll" | sed 's/\s.*$//')
 		pkgname_from_file=$(./package_name_parser $pkgname_with_ver_from_file)
-		debug "pkgname_from_file: $pkgname_from_file"
+		#debug "pkgname_from_file: $pkgname_from_file"
+
+		#Skip modules.yaml
+		[ "$NAME" == "modules.yaml" ] && continue
+
 		if [ "$pkgname_from_file" == "$pkgname" ]; then
 			found_match=true
 			break
 		fi
 	done < <(printf '%s\n' "$rpm_list")
 	if $found_match; then
-		echo -e "Dependency: ${arr_require_statement[1]},\t found $REQTYPE dependency $pkgname"
+		info "Dependency: ${arr_require_statement[1]},\t found $REQTYPE dependency $pkgname"
+		
+		DNF_INFO=$(dnf info $pkgname)
+        	debug "dnf_info:"
+        	debug "$DNF_INFO"
+
+        	# Skip if found more than 2 lines
+        	count=$(echo "$DNF_INFO" | grep -o -i "License      : " | wc -l)
+        	debug "num_of_results=$count"
+        	if [ $count -ge 2 ]; then
+                	echo "package \"$pkgname\" is already released by oracle. skipping." 
+                	continue
+        	fi
+
+        	DNF_INFO_ARR=($(echo "$DNF_INFO" | grep "License      : \|URL          : "))
+        	#debug "${DNF_INFO_ARR[@]}" #doesn't work
+
+        	# Skip if can't find package
+        	if [ "${DNF_INFO_ARR[0]}" == "Error:" ]; then
+                	continue
+        	fi
+
+
+        	URL=${DNF_INFO_ARR[2]}
+        	debug "url=$URL"
+        	LICENSE=${DNF_INFO_ARR[@]:5}
+        	debug "license=$LICENSE"
+        	debug ${#LICENSE}
+        	debug "$(echo $LICENSE | od -c)"
+
+        	row_format='%-60s %-28s %s  %-8s\n'
+        	printf "$row_format" "$pkgname" "$LICENSE" "$URL" "$REQTYPE"	
+
 	else
-		echo -e "Dependency: ${arr_require_statement[1]},\t dnf provides: $pkgname. can't find match from rpm list."
+		info "Dependency: ${arr_require_statement[1]},\t dnf provides: $pkgname. can't find match from rpm list."
 	fi
 	
 done < <(rpmspec -P $SPECFILE | grep ^$REQTYPE)

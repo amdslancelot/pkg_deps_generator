@@ -1,0 +1,4 @@
+./define_dependency_v2 ~/foreman.spec BuildRequires ./rpm_list_foreman > legal_review_foreman_spec_buildrequires &
+./define_dependency_v2 ~/foreman.spec Requires ./rpm_list_foreman > legal_review_foreman_spec_requires &
+./define_dependency_v2 ~/katello.spec BuildRequires ./rpm_list_katello > legal_review_katello_spec_buildrequires &
+./define_dependency_v2 ~/katello.spec Requires ./rpm_list_katello > legal_review_katello_spec_requires &
