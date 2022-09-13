@@ -22,6 +22,7 @@ function debug {
 }
 
 
+
 while IFS= read -r l; do
 
 	# Skip if is empty line
@@ -52,7 +53,6 @@ while IFS= read -r l; do
 		#Is Requires
 		runtimedep="Runtime"
 	fi
-
 
 	DNF_INFO=$(dnf info $NAME)
 	debug "dnf_info:"

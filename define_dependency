@@ -5,7 +5,6 @@ REQTYPE=$3
 SPECFILE_MACROS="python3_pkgversion 39"
 
 DEBUG=0
-tabs 60
 
 function debug {
 	if [[ $DEBUG == 1 ]]; then
