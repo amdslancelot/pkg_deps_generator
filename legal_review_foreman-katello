@@ -1,7 +1,7 @@
-candlepin                                                    GPLv2                        http://www.candlepinproject.org  no     Runtime                                                                 
-candlepin-selinux                                            GPLv2                        http://www.candlepinproject.org  no     Runtime                                                                 
-foreman-proxy-content                                        GPLv2                        https://theforeman.org/plugins/katello  no     no                                                               
-katello                                                      GPLv2                        https://theforeman.org/plugins/katello  no     Runtime                                                          
+candlepin                                                    GPLv2                        http://www.candlepinproject.org  no     Runtime 
+candlepin-selinux                                            GPLv2                        http://www.candlepinproject.org  no     Runtime 
+foreman-proxy-content                                        GPLv2                        https://theforeman.org/plugins/katello  no     no      
+katello                                                      GPLv2                        https://theforeman.org/plugins/katello  no     Runtime 
 katello-client-bootstrap                                     LGPLv2                       http://www.katello.org  no     no      
 katello-common                                               GPLv2                        https://theforeman.org/plugins/katello  no     Runtime 
 katello-debug                                                GPLv2                        https://theforeman.org/plugins/katello  no     Runtime 
@@ -20,12 +20,12 @@ nodejs-downshift                                             MIT                
 nodejs-ngreact                                               MIT                          http://davidchang.github.io/ngReact/  no     no      
 nodejs-query-string                                          MIT                          https://github.com/sindresorhus/query-string#readme  no     no      
 nodejs-strict-uri-encode                                     MIT                          https://github.com/kevva/strict-uri-encode#readme  no     no      
-package "python-qpid-proton-docs" is already released by oracle. skipping.     
+package "python-qpid-proton-docs" is already released by oracle. skipping.
 python2-qpid                                                 ASL 2.0                      http://qpid.apache.org  no     no      
 python2-qpid-qmf                                             ASL 2.0                      http://qpid.apache.org  no     no      
 python2-saslwrapper                                          ASL 2.0                      http://qpid.apache.org  no     no      
 python2-saslwrapper-debuginfo                                ASL 2.0                      http://qpid.apache.org  no     no      
-package "python3-qpid-proton" is already released by oracle. skipping.         
+package "python3-qpid-proton" is already released by oracle. skipping.
 package "python3-qpid-proton-debuginfo" is already released by oracle. skipping.
 qpid-cpp-client                                              ASL 2.0                      http://qpid.apache.org  no     no      
 qpid-cpp-client-debuginfo                                    ASL 2.0                      http://qpid.apache.org  no     no      
@@ -50,17 +50,17 @@ qpid-dispatch-docs                                           ASL 2.0            
 qpid-dispatch-router                                         ASL 2.0                      http://qpid.apache.org/  no     no      
 qpid-dispatch-router-debuginfo                               ASL 2.0                      http://qpid.apache.org/  no     no      
 qpid-dispatch-tools                                          ASL 2.0                      http://qpid.apache.org/  no     no      
-package "qpid-proton-c" is already released by oracle. skipping.               
-package "qpid-proton-c-debuginfo" is already released by oracle. skipping.     
-package "qpid-proton-c-devel" is already released by oracle. skipping.         
-package "qpid-proton-c-docs" is already released by oracle. skipping.          
-package "qpid-proton-cpp" is already released by oracle. skipping.             
+package "qpid-proton-c" is already released by oracle. skipping.
+package "qpid-proton-c-debuginfo" is already released by oracle. skipping.
+package "qpid-proton-c-devel" is already released by oracle. skipping.
+package "qpid-proton-c-docs" is already released by oracle. skipping.
+package "qpid-proton-cpp" is already released by oracle. skipping.
 qpid-proton-cpp-debuginfo                                    ASL 2.0                      http://qpid.apache.org/proton/  no     no      
-package "qpid-proton-cpp-devel" is already released by oracle. skipping.       
-package "qpid-proton-cpp-docs" is already released by oracle. skipping.        
+package "qpid-proton-cpp-devel" is already released by oracle. skipping.
+package "qpid-proton-cpp-docs" is already released by oracle. skipping.
 qpid-proton-debuginfo                                        ASL 2.0                      http://qpid.apache.org/proton/  no     no      
 qpid-proton-debugsource                                      ASL 2.0                      http://qpid.apache.org/proton/  no     no      
-package "qpid-proton-tests" is already released by oracle. skipping.           
+package "qpid-proton-tests" is already released by oracle. skipping.
 qpid-qmf                                                     ASL 2.0                      http://qpid.apache.org  no     no      
 qpid-qmf-debuginfo                                           ASL 2.0                      http://qpid.apache.org  no     no      
 qpid-qmf-devel                                               ASL 2.0                      http://qpid.apache.org  no     no      
@@ -106,7 +106,7 @@ rubygem-pulp_rpm_client                                      GPLv2              
 rubygem-pulp_rpm_client-doc                                  GPLv2                        https://github.com/pulp/pulp_rpm/  no     no      
 rubygem-pulpcore_client                                      GPLv2                        https://openapi-generator.tech  no     no      
 rubygem-pulpcore_client-doc                                  GPLv2                        https://openapi-generator.tech  no     no      
-package "rubygem-qpid_proton" is already released by oracle. skipping.         
+package "rubygem-qpid_proton" is already released by oracle. skipping.
 rubygem-qpid_proton-debuginfo                                ASL 2.0                      http://qpid.apache.org/proton/  no     no      
 rubygem-robotex                                              MIT                          https://www.github.com/chriskite/robotex  no     no      
 rubygem-robotex-doc                                          MIT                          https://www.github.com/chriskite/robotex  no     no      
@@ -121,4 +121,4 @@ rubygem-zest-doc                                             GPLv2              
 saslwrapper                                                  ASL 2.0                      http://qpid.apache.org  no     no      
 saslwrapper-debuginfo                                        ASL 2.0                      http://qpid.apache.org  no     no      
 saslwrapper-debugsource                                      ASL 2.0                      http://qpid.apache.org  no     no      
-saslwrapper-devel                                            ASL 2.0                      http://qpid.apache.org  no     no 
+saslwrapper-devel                                            ASL 2.0                      http://qpid.apache.org  no     no      
