@@ -16,7 +16,7 @@ rubygem-bundler_ext                                          ASL 2.0            
 
 
 ```sh
-# ./pkg_info_legal rpm_list_foreman ~/foreman.spec
+# ./pkg_info_legal rpm_list_foreman
 dnf-plugin-subscription-manager                              GPLv2                        http://www.candlepinproject.org/  no     no                                                                     
 dnf-plugin-subscription-manager-debuginfo                    GPLv2                        http://www.candlepinproject.org/  no     no                                                                     
 dynflow-utils                                                GPLv3                        https://github.com/dynflow/dynflow  no     no                                                                   
@@ -36,6 +36,6 @@ foreman-debug                                                GPLv3+ with excepti
 
 
 ```sh
-# ./pkg_info_legal rpm_list_katello ~/katello.spec libwebsockets-tests-debuginfo
+# ./pkg_info_legal rpm_list_katello libwebsockets-tests-debuginfo
 libwebsockets-tests-debuginfo                                LGPLv2 and Public Domain and BSD and MIT and zlib http://libwebsockets.org  no     no                                                       
 ```

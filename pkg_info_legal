@@ -11,7 +11,7 @@
 
 RPM_LIST_PATH=$1
 #SPECFILE_PATH=$2
-NARROW_PKG_NAME=$(echo $3 | tr '[:upper:]' '[:lower:]')
+NARROW_PKG_NAME=$(echo $2 | tr '[:upper:]' '[:lower:]')
 SPECFILE_PATH_ARR=$(ls | grep "\.spec")
 
 DEBUG=0
