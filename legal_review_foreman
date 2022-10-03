@@ -13,8 +13,8 @@ foreman-debug                                                GPLv3+ with excepti
 foreman-dynflow-sidekiq                                      GPLv3+ with exceptions       https://theforeman.org  no     no      
 foreman-ec2                                                  GPLv3+ with exceptions       https://theforeman.org  no     no      
 foreman-gce                                                  GPLv3+ with exceptions       https://theforeman.org  no     no      
-foreman-installer                                            GPLv3+ and ASL 2.0           https://theforeman.org  no     no      
-foreman-installer-katello                                    GPLv3+ and ASL 2.0           https://theforeman.org  no     no      
+foreman-installer                                            GPLv3+ and ASL 2.0           https://theforeman.org  no     Runtime 
+foreman-installer-katello                                    GPLv3+ and ASL 2.0           https://theforeman.org  no     Runtime 
 foreman-journald                                             GPLv3+ with exceptions       https://theforeman.org  no     no      
 foreman-libvirt                                              GPLv3+ with exceptions       https://theforeman.org  no     no      
 foreman-openstack                                            GPLv3+ with exceptions       https://theforeman.org  no     no      
@@ -35,7 +35,7 @@ gofer                                                        LGPLv2             
 gofer-tools                                                  LGPLv2                       https://github.com/jortel/gofer  no     no      
 package "gyp" is already released by oracle. skipping.
 katello-agent                                                LGPLv2                       https://github.com/Katello/katello-agent  no     no      
-katello-certs-tools                                          GPLv2                        https://github.com/katello/katello-certs-tools  no     no      
+katello-certs-tools                                          GPLv2                        https://github.com/katello/katello-certs-tools  no     Runtime 
 katello-host-tools                                           LGPLv2                       https://github.com/Katello/katello-agent  no     no      
 katello-host-tools-tracer                                    LGPLv2                       https://github.com/Katello/katello-agent  no     no      
 keycloak-httpd-client-install                                GPLv3                        https://github.com/latchset/keycloak-httpd-client-install  no     no      
@@ -116,9 +116,9 @@ nodejs-warning                                               MIT                
 nodejs-webpack                                               MIT                          https://github.com/webpack/webpack  Build  Runtime 
 nodejs-webpack-stats-plugin                                  MIT                          https://github.com/FormidableLabs/webpack-stats-plugin#readme  Build  Runtime 
 pcp-mmvstatsd                                                MIT and BSD                  https://github.com/lzap/pcp-mmvstatsd  no     no      
-puppet-agent                                                 See components               https://www.puppetlabs.com  no     no      
+puppet-agent                                                 See components               https://www.puppetlabs.com  Build  Runtime 
 puppet-agent-oauth                                           MIT                          http://rubydoc.info/gems/oauth  no     no      
-puppet-agent-puppet-strings                                  ASL-2.0                      https://github.com/puppetlabs/puppetlabs-strings  no     no      
+puppet-agent-puppet-strings                                  ASL-2.0                      https://github.com/puppetlabs/puppetlabs-strings  Build  no      
 puppet-agent-rgen                                            MIT                          http://rubydoc.info/gems/rgen  no     no      
 puppet-agent-yard                                            MIT                          http://yardoc.org/  no     no      
 python-psutil-debugsource                                    BSD                          https://github.com/giampaolo/psutil  no     no      
@@ -284,7 +284,7 @@ rubygem-font-awesome-sass                                    MIT                
 rubygem-font-awesome-sass-doc                                MIT                          https://github.com/FortAwesome/font-awesome-sass  no     no      
 rubygem-foreman-tasks                                        GPLv3                        https://github.com/theforeman/foreman-tasks  no     no      
 rubygem-foreman-tasks-doc                                    GPLv3                        https://github.com/theforeman/foreman-tasks  no     no      
-rubygem-foreman_maintain                                     GPLv3                        https://github.com/theforeman/foreman_maintain  no     no      
+rubygem-foreman_maintain                                     GPLv3                        https://github.com/theforeman/foreman_maintain  no     Runtime 
 rubygem-foreman_maintain-doc                                 GPLv3                        https://github.com/theforeman/foreman_maintain  no     no      
 rubygem-foreman_remote_execution                             GPLv3                        https://github.com/theforeman/foreman_remote_execution  no     no      
 rubygem-foreman_remote_execution-cockpit                     GPLv3                        https://github.com/theforeman/foreman_remote_execution  no     no      
@@ -329,7 +329,7 @@ rubygem-hammer_cli_foreman_tasks                             GPLv3+             
 rubygem-hammer_cli_foreman_tasks-doc                         GPLv3+                       https://github.com/theforeman/hammer-cli-foreman-tasks  no     no      
 rubygem-hashie                                               MIT                          https://github.com/intridea/hashie  no     no      
 rubygem-hashie-doc                                           MIT                          https://github.com/intridea/hashie  no     no      
-rubygem-highline                                             GPLv2+ or Ruby               https://github.com/JEG2/highline  no     no      
+rubygem-highline                                             GPLv2+ or Ruby               https://github.com/JEG2/highline  no     Runtime 
 rubygem-highline-doc                                         GPLv2+ or Ruby               https://github.com/JEG2/highline  no     no      
 rubygem-hirb                                                 MIT                          http://tagaholic.me/hirb/  no     no      
 rubygem-hirb-doc                                             MIT                          http://tagaholic.me/hirb/  no     no      
@@ -355,7 +355,7 @@ rubygem-jquery-ui-rails                                      MIT                
 rubygem-jquery-ui-rails-doc                                  MIT                          https://github.com/joliss/jquery-ui-rails  no     no      
 rubygem-jwt                                                  MIT                          https://github.com/jwt/ruby-jwt  Build  Runtime 
 rubygem-jwt-doc                                              MIT                          https://github.com/jwt/ruby-jwt  no     no      
-rubygem-kafo                                                 GPLv3+                       https://github.com/theforeman/kafo  no     no      
+rubygem-kafo                                                 GPLv3+                       https://github.com/theforeman/kafo  Build  Runtime 
 rubygem-kafo-doc                                             GPLv3+                       https://github.com/theforeman/kafo  no     no      
 rubygem-kafo_parsers                                         GPLv3+                       https://github.com/theforeman/kafo_parsers  no     no      
 rubygem-kafo_parsers-doc                                     GPLv3+                       https://github.com/theforeman/kafo_parsers  no     no      

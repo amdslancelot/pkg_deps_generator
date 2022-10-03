@@ -10,8 +10,9 @@
 #############################################################################################################
 
 RPM_LIST_PATH=$1
-SPECFILE_PATH=$2
+#SPECFILE_PATH=$2
 NARROW_PKG_NAME=$(echo $3 | tr '[:upper:]' '[:lower:]')
+SPECFILE_PATH_ARR=$(ls | grep "\.spec")
 
 DEBUG=0
 
@@ -41,18 +42,26 @@ while IFS= read -r l; do
 	[ "$NAME" == "modules.yaml" ] && continue
 
 	builddep="no"
-	debug "command: ./define_dependency $NAME $SPECFILE_PATH BuildRequires"
-	if ./define_dependency $NAME $SPECFILE_PATH BuildRequires; then
-		#Is BuildRequires
-		builddep="Build"
-	fi
+	for sf in $SPECFILE_PATH_ARR
+	do
+		debug "command: ./define_dependency $NAME $sf BuildRequires"
+		if ./define_dependency $NAME $sf BuildRequires; then
+			#Is BuildRequires
+			builddep="Build"
+			break
+		fi
+	done
 
 	runtimedep="no"
-	debug "command: ./define_dependency $NAME $SPECFILE_PATH Requires"
-	if ./define_dependency $NAME $SPECFILE_PATH Requires; then
-		#Is Requires
-		runtimedep="Runtime"
-	fi
+	for sf in $SPECFILE_PATH_ARR
+	do
+		debug "command: ./define_dependency $NAME $sf Requires"
+		if ./define_dependency $NAME $sf Requires; then
+			#Is Requires
+			runtimedep="Runtime"
+			break
+		fi
+	done
 
 	DNF_INFO=$(dnf info $NAME)
 	debug "dnf_info:"

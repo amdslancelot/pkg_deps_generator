@@ -16,7 +16,6 @@ RPM_LIST=$3
 
 DEBUG=0
 INFO=0
-tabs 60
 
 function debug {
 	if [[ $DEBUG == 1 ]]; then
