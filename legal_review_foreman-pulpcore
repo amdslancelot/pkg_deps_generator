@@ -1,220 +1,220 @@
-ansible-lint                                                 MIT                          https://github.com/ansible-community/ansible-lint  no     no                                                    
-package "createrepo_c" is already released by oracle. skipping.                                                                                                                                           
-createrepo_c-debuginfo                                       GPLv2+                       https://github.com/rpm-software-management/createrepo_c  no     no                                              
-createrepo_c-debugsource                                     GPLv2+                       https://github.com/rpm-software-management/createrepo_c  no     no                                              
-createrepo_c-devel                                           GPLv2+                       https://github.com/rpm-software-management/createrepo_c  no     no                                              
-package "createrepo_c-libs" is already released by oracle. skipping.                                                                                                                                      
-createrepo_c-libs-debuginfo                                  GPLv2+                       https://github.com/rpm-software-management/createrepo_c  no     no                                              
-package "libcomps" is already released by oracle. skipping.                                                                                                                                               
-libcomps-debuginfo                                           GPLv2+                       https://github.com/rpm-software-management/libcomps  no     no                                                  
-libcomps-debugsource                                         GPLv2+                       https://github.com/rpm-software-management/libcomps  no     no                                                  
-libcomps-devel                                               GPLv2+                       https://github.com/rpm-software-management/libcomps  no     no                                                  
-package "libsolv" is already released by oracle. skipping.                                                                                                                                                
-libsolv-debuginfo                                            BSD                          https://github.com/openSUSE/libsolv  no     no                                                                  
-libsolv-debugsource                                          BSD                          https://github.com/openSUSE/libsolv  no     no                                                                  
-libsolv-demo                                                 BSD                          https://github.com/openSUSE/libsolv  no     no                                                                  
-libsolv-demo-debuginfo                                       BSD                          https://github.com/openSUSE/libsolv  no     no                                                                  
-libsolv-devel                                                BSD                          https://github.com/openSUSE/libsolv  no     no                                                                  
-libsolv-tools                                                BSD                          https://github.com/openSUSE/libsolv  no     no                                                                  
-libsolv-tools-debuginfo                                      BSD                          https://github.com/openSUSE/libsolv  no     no                                                                  
-postgresql-evr                                               GPLv3                        https://github.com/Katello/postgresql-evr  no     no                                                            
-pulpcore-selinux                                             GPL2+                        https://pulpproject.org  no     no                                                                              
-python-aiohttp-debugsource                                   Apache 2                     https://github.com/aio-libs/aiohttp  no     no                                                                  
-python-brotli-debugsource                                    MIT                          https://github.com/google/brotli  no     no                                                                     
-python-cchardet-debugsource                                  Mozilla Public License       https://github.com/PyYoshi/cChardet  no     no                                                                  
-python-cffi-debugsource                                      MIT                          http://cffi.readthedocs.org  no     no                                                                          
-python-cryptography-debugsource                              BSD or Apache License, Version 2.0 https://github.com/pyca/cryptography  no     no                                                           
-python-frozenlist-debugsource                                Apache 2                     https://github.com/aio-libs/frozenlist  no     no                                                               
-python-lxml-debugsource                                      BSD                          https://lxml.de/  no     no                                                                                     
-python-markupsafe-debugsource                                BSD-3-Clause                 https://palletsprojects.com/p/markupsafe/  no     no                                                            
-python-multidict-debugsource                                 Apache 2                     https://github.com/aio-libs/multidict  no     no                                                                
-python-psycopg2-debugsource                                  LGPL with exceptions         https://psycopg.org/  no     no                                                                                 
-python-pycairo-debugsource                                   LGPL-2.1-only OR MPL-1.1     https://pycairo.readthedocs.io  no     no                                                                       
-python-pycares-debugsource                                   MIT                          http://github.com/saghul/pycares  no     no                                                                     
-python-pycryptodomex-debugsource                             BSD, Public Domain           https://www.pycryptodome.org  no     no                                                                         
-python-pygobject-debugsource                                 GNU LGPL                     https://pygobject.readthedocs.io  no     no                                                                     
-python-pyrsistent-debugsource                                MIT                          http://github.com/tobgu/pyrsistent/  no     no                                                                  
-python-rhsm-debugsource                                      GPLv2                        http://fedorahosted.org/candlepin  no     no                                                                    
-python-ruamel-yaml-clib-debugsource                          MIT                          https://sourceforge.net/p/ruamel-yaml-clib/code/ci/default/tree  no     no                                      
-python-yarl-debugsource                                      Apache 2                     https://github.com/aio-libs/yarl/  no     no                                                                    
-python3-createrepo_c                                         GPLv2+                       https://github.com/rpm-software-management/createrepo_c  no     no                                              
-python3-createrepo_c-debuginfo                               GPLv2+                       https://github.com/rpm-software-management/createrepo_c  no     no                                              
-package "python3-libcomps" is already released by oracle. skipping.                                                                                                                                       
-python3-libcomps-debuginfo                                   GPLv2+                       https://github.com/rpm-software-management/libcomps  no     no                                                  
-python3-solv                                                 BSD                          https://github.com/openSUSE/libsolv  no     no                                                                  
-python3-solv-debuginfo                                       BSD                          https://github.com/openSUSE/libsolv  no     no                                                                  
-python39-aiodns                                              MIT                          https://github.com/saghul/aiodns  no     Runtime                                                                
-python39-aiofiles                                            Apache 2.0                   https://github.com/Tinche/aiofiles  no     Runtime                                                              
-python39-aiohttp                                             Apache 2                     https://github.com/aio-libs/aiohttp  no     Runtime                                                             
-python39-aiohttp-debuginfo                                   Apache 2                     https://github.com/aio-libs/aiohttp  no     no                                                                  
-python39-aiohttp-socks                                       Apache 2                     https://github.com/romis2012/aiohttp-socks  no     no                                                           
-python39-aiohttp-xmlrpc                                      MIT                          https://github.com/mosquito/aiohttp-xmlrpc  no     no                                                           
-python39-aioredis                                            MIT                          https://github.com/aio-libs/aioredis  no     Runtime                                                            
-python39-aiosignal                                           Apache 2                     https://github.com/aio-libs/aiosignal  no     no                                                                
-python39-ansible-builder                                     Apache-2.0                   https://github.com/ansible/ansible-builder/  no     no                                                          
-python39-asgiref                                             BSD                          https://github.com/django/asgiref/  no     no                                                                   
-python39-async-lru                                           None                         https://github.com/wikibusiness/async_lru  no     no                                                            
-python39-async-timeout                                       Apache 2                     https://github.com/aio-libs/async-timeout  no     no                                                            
-python39-asyncio-throttle                                    MIT                          https://github.com/hallazzang/asyncio-throttle  no     Runtime                                                  
-python39-attrs                                               MIT                          https://www.attrs.org/  no     no                                                                               
-python39-backoff                                             MIT                          https://github.com/litl/backoff  no     Runtime                                                                 
-python39-bandersnatch                                        Academic Free License, version 3 https://github.com/pypa/bandersnatch/  no     no                                                            
-python39-beautifulsoup4                                      MIT                          http://www.crummy.com/software/BeautifulSoup/bs4/  no     no                                                    
-python39-bindep                                              Apache License, Version 2.0  https://docs.opendev.org/opendev/bindep  no     no                                                              
-python39-bleach                                              Apache Software License      https://github.com/mozilla/bleach  no     no                                                                    
-python39-bleach-allowlist                                    BSD License                  https://github.com/yourcelf/bleach-allowlist.git  no     no                                                     
-python39-bracex                                              MIT License                  https://github.com/facelessuser/bracex  no     no                                                               
-python39-brotli                                              MIT                          https://github.com/google/brotli  no     no                                                                     
-python39-brotli-debuginfo                                    MIT                          https://github.com/google/brotli  no     no                                                                     
-python39-cchardet                                            Mozilla Public License       https://github.com/PyYoshi/cChardet  no     no                                                                  
-python39-cchardet-debuginfo                                  Mozilla Public License       https://github.com/PyYoshi/cChardet  no     no                                                                  
-python39-certifi                                             MPL-2.0                      https://certifiio.readthedocs.io/en/latest/  no     no                                                          
-python39-cffi                                                MIT                          http://cffi.readthedocs.org  no     no                                                                          
-python39-cffi-debuginfo                                      MIT                          http://cffi.readthedocs.org  no     no                                                                          
-python39-chardet                                             LGPL                         https://github.com/chardet/chardet  no     no                                                                   
-python39-charset-normalizer                                  MIT                          https://github.com/ousret/charset_normalizer  no     no                                                         
-python39-click                                               BSD-3-Clause                 https://palletsprojects.com/p/click/  no     Runtime                                                            
-python39-click-shell                                         BSD                          https://github.com/clarkperkins/click-shell  no     no                                                          
-python39-colorama                                            BSD                          https://github.com/tartley/colorama  no     no                                                                  
-python39-commonmark                                          BSD-3-Clause                 https://github.com/rtfd/commonmark.py  no     no                                                                
-python39-contextlib2                                         PSF License                  http://contextlib2.readthedocs.org  no     no                                                                   
-python39-createrepo_c                                        GPLv2+                       https://github.com/rpm-software-management/createrepo_c  no     no                                              
-python39-createrepo_c-debuginfo                              GPLv2+                       https://github.com/rpm-software-management/createrepo_c  no     no                                              
-python39-cryptography                                        BSD or Apache License, Version 2.0 https://github.com/pyca/cryptography  no     Runtime                                                      
-python39-cryptography-debuginfo                              BSD or Apache License, Version 2.0 https://github.com/pyca/cryptography  no     no                                                           
-python39-dataclasses                                         Apache                       https://github.com/ericvsmith/dataclasses  no     no                                                            
-python39-dateutil                                            Dual License                 https://dateutil.readthedocs.io  no     no                                                                      
-python39-debian                                              GPL-2+                       https://salsa.debian.org/python-debian-team/python-debian  no     no                                            
-python39-defusedxml                                          PSFL                         https://github.com/tiran/defusedxml  no     no                                                                  
-python39-diff-match-patch                                    Apache                       https://github.com/diff-match-patch-python/diff-match-patch  no     no                                          
-python39-distro                                              Apache License, Version 2.0  https://github.com/python-distro/distro  no     no                                                              
-python39-django                                              BSD-3-Clause                 https://www.djangoproject.com/  no     Runtime                                                                  
-python39-django-currentuser                                  BSD                          https://github.com/PaesslerAG/django-currentuser  no     Runtime                                                
-python39-django-filter                                       BSD                          https://github.com/carltongibson/django-filter/tree/master  no     Runtime                                      
-python39-django-guardian                                     BSD                          http://github.com/django-guardian/django-guardian  no     Runtime                                               
-python39-django-guid                                         BSD                          https://github.com/snok/django-guid  no     Runtime                                                             
-python39-django-import-export                                BSD License                  https://github.com/django-import-export/django-import-export  no     Runtime                                    
-python39-django-lifecycle                                    MIT                          https://github.com/rsinger86/django-lifecycle  no     Runtime                                                   
-python39-django-prometheus                                   Apache                       http://github.com/korfuri/django-prometheus  no     Runtime                                                     
-python39-django-readonly-field                               MIT                          https://github.com/peopledoc/django-readonly-field  no     no                                                   
-python39-djangorestframework                                 BSD                          https://www.django-rest-framework.org/  no     Runtime                                                          
-python39-djangorestframework-queryfields                     MIT                          https://github.com/wimglenn/djangorestframework-queryfields  no     Runtime                                     
-python39-drf-access-policy                                   MIT                          https://github.com/rsinger86/drf-access-policy  no     Runtime                                                  
-python39-drf-nested-routers                                  Apache                       https://github.com/alanjds/drf-nested-routers  no     Runtime                                                   
-python39-drf-spectacular                                     BSD                          https://github.com/tfranzel/drf-spectacular  no     Runtime                                                     
-python39-dynaconf                                            MIT                          https://github.com/rochacbruno/dynaconf  no     Runtime                                                         
-python39-ecdsa                                               MIT                          http://github.com/warner/python-ecdsa  no     no                                                                
-python39-enrich                                              MIT                          https://github.com/pycontribs/enrich  no     no                                                                 
-python39-et-xmlfile                                          MIT                          https://foss.heptapod.net/openpyxl/et_xmlfile  no     no                                                        
-python39-filelock                                            Unlicense                    https://github.com/benediktschmitt/py-filelock  no     no                                                       
-python39-flake8                                              MIT                          https://gitlab.com/pycqa/flake8  no     no                                                                      
-python39-frozenlist                                          Apache 2                     https://github.com/aio-libs/frozenlist  no     no                                                               
-python39-frozenlist-debuginfo                                Apache 2                     https://github.com/aio-libs/frozenlist  no     no                                                               
-python39-future                                              MIT                          https://python-future.org  no     no                                                                            
-python39-galaxy-importer                                     Apache-2.0                   https://github.com/ansible/galaxy-importer  no     no                                                           
-python39-gitdb                                               BSD License                  https://github.com/gitpython-developers/gitdb  no     no                                                        
-python39-gitpython                                           BSD                          https://github.com/gitpython-developers/GitPython  no     no                                                    
-python39-gnupg                                               BSD-3-Clause                 https://docs.red-dove.com/python-gnupg/  no     Runtime                                                         
-python39-gunicorn                                            MIT                          https://gunicorn.org  no     Runtime                                                                            
-python39-humanfriendly                                       MIT                          https://humanfriendly.readthedocs.io  no     no                                                                 
-python39-idna                                                BSD-3-Clause                 https://github.com/kjd/idna  no     no                                                                          
-python39-idna-ssl                                            MIT                          https://github.com/aio-libs/idna-ssl  no     no                                                                 
-python39-importlib-metadata                                  Apache Software License      http://importlib-metadata.readthedocs.io/  no     no                                                            
-python39-importlib-resources                                 Apache2                      https://github.com/python/importlib_resources  no     no                                                        
-python39-inflection                                          MIT                          https://github.com/jpvanhal/inflection  no     no                                                               
-python39-iniparse                                            MIT and Python               https://pypi.org/project/iniparse/  no     no                                                                   
-python39-jinja2                                              BSD-3-Clause                 https://palletsprojects.com/p/jinja/  no     Runtime                                                            
-python39-jsonschema                                          MIT                          https://github.com/Julian/jsonschema  no     no                                                                 
-python39-libcomps                                            GPLv2+                       https://github.com/rpm-software-management/libcomps  no     no                                                  
-python39-libcomps-debuginfo                                  GPLv2+                       https://github.com/rpm-software-management/libcomps  no     no                                                  
-python39-lxml                                                BSD                          https://lxml.de/  no     no                                                                                     
-python39-lxml-debuginfo                                      BSD                          https://lxml.de/  no     no                                                                                     
-python39-markdown                                            BSD License                  https://Python-Markdown.github.io/  no     no                                                                   
-python39-markuppy                                            MIT                          https://github.com/tylerbakke/MarkupPy  no     no                                                               
-python39-markupsafe                                          BSD-3-Clause                 https://palletsprojects.com/p/markupsafe/  no     no                                                            
-python39-markupsafe-debuginfo                                BSD-3-Clause                 https://palletsprojects.com/p/markupsafe/  no     no                                                            
-python39-mccabe                                              Expat license                https://github.com/pycqa/mccabe  no     no                                                                      
-python39-multidict                                           Apache 2                     https://github.com/aio-libs/multidict  no     no                                                                
-python39-multidict-debuginfo                                 Apache 2                     https://github.com/aio-libs/multidict  no     no                                                                
-python39-naya                                                MIT                          https://github.com/danielyule/naya  no     Runtime                                                              
-python39-odfpy                                               GPLv2+ or Apache-2.0         https://github.com/eea/odfpy  no     no                                                                         
-python39-openpyxl                                            MIT                          https://openpyxl.readthedocs.io  no     no                                                                      
-python39-packaging                                           BSD-2-Clause or Apache-2.0   https://github.com/pypa/packaging  no     no                                                                    
-python39-parsley                                             MIT License                  http://launchpad.net/parsley  no     no                                                                         
-python39-pbr                                                 None                         https://docs.openstack.org/pbr/latest/  no     no                                                               
-python39-pkginfo                                             MIT                          https://code.launchpad.net/~tseaver/pkginfo/trunk  no     no                                                    
-python39-productmd                                           LGPLv2.1                     https://github.com/release-engineering/productmd  no     no                                                     
-python39-prometheus-client                                   Apache Software License 2.0  https://github.com/prometheus/client_python  no     no                                                          
-python39-psycopg2                                            LGPL with exceptions         https://psycopg.org/  no     Runtime                                                                            
-python39-psycopg2-debuginfo                                  LGPL with exceptions         https://psycopg.org/  no     no                                                                                 
-python39-pulp-ansible                                        GPLv2+                       https://github.com/pulp/pulp_ansible  no     no                                                                 
-python39-pulp-certguard                                      GPLv2+                       https://docs.pulpproject.org/pulp_certguard/  no     no                                                         
-python39-pulp-cli                                            GPLv2+                       https://github.com/pulp/pulp-cli  no     no                                                                     
-python39-pulp-container                                      GPLv2+                       https://pulpproject.org/  no     no                                                                             
-python39-pulp-deb                                            GPLv2+                       https://pulpproject.org  no     no                                                                              
-python39-pulp-file                                           GPLv2+                       https://pulpproject.org/  no     no                                                                             
-python39-pulp-python                                         GPLv2+                       https://www.pulpproject.org  no     no                                                                          
-python39-pulp-rpm                                            GPLv2+                       http://www.pulpproject.org  no     no                                                                           
-python39-pulpcore                                            GPLv2+                       https://pulpproject.org  no     no                                                                              
-python39-pyOpenSSL                                           Apache License, Version 2.0  https://pyopenssl.org/  no     no                                                                               
-python39-pycairo                                             LGPL-2.1-only OR MPL-1.1     https://pycairo.readthedocs.io  no     no                                                                       
-python39-pycairo-debuginfo                                   LGPL-2.1-only OR MPL-1.1     https://pycairo.readthedocs.io  no     no                                                                       
-python39-pycairo-devel                                       LGPL-2.1-only OR MPL-1.1     https://pycairo.readthedocs.io  no     no                                                                       
-python39-pycares                                             MIT                          http://github.com/saghul/pycares  no     no                                                                     
-python39-pycares-debuginfo                                   MIT                          http://github.com/saghul/pycares  no     no                                                                     
-python39-pycodestyle                                         Expat license                https://pycodestyle.pycqa.org/  no     no                                                                       
-python39-pycparser                                           BSD                          https://github.com/eliben/pycparser  no     no                                                                  
-python39-pycryptodomex                                       BSD, Public Domain           https://www.pycryptodome.org  no     no                                                                         
-python39-pycryptodomex-debuginfo                             BSD, Public Domain           https://www.pycryptodome.org  no     no                                                                         
-python39-pyflakes                                            MIT                          https://github.com/PyCQA/pyflakes  no     no                                                                    
-python39-pygments                                            BSD License                  https://pygments.org/  no     no                                                                                
-python39-pygobject                                           GNU LGPL                     https://pygobject.readthedocs.io  no     no                                                                     
-python39-pygobject-debuginfo                                 GNU LGPL                     https://pygobject.readthedocs.io  no     no                                                                     
-python39-pygtrie                                             Apache-2.0                   https://github.com/mina86/pygtrie  no     Runtime                                                               
-python39-pyjwkest                                            Apache 2.0                   None  no     no                                                                                                 
-python39-pyjwt                                               MIT                          http://github.com/jpadilla/pyjwt  no     no                                                                     
-python39-pyparsing                                           MIT                          https://github.com/pyparsing/pyparsing  no     no                                                               
-python39-pypi-simple                                         MIT                          https://github.com/jwodder/pypi-simple  no     no                                                               
-python39-pyrsistent                                          MIT                          http://github.com/tobgu/pyrsistent/  no     no                                                                  
-python39-pyrsistent-debuginfo                                MIT                          http://github.com/tobgu/pyrsistent/  no     no                                                                  
-python39-pytz                                                MIT                          http://pythonhosted.org/pytz  no     no                                                                         
-python39-pyyaml                                              MIT                          https://pyyaml.org/  no     Runtime                                                                             
-python39-redis                                               MIT                          https://github.com/andymccurdy/redis-py  no     Runtime                                                         
-python39-requests                                            Apache 2.0                   https://requests.readthedocs.io  no     no                                                                      
-python39-requirements-parser                                 BSD                          https://github.com/davidfischer/requirements-parser  no     no                                                  
-python39-rhsm                                                GPLv2                        http://fedorahosted.org/candlepin  no     no                                                                    
-python39-rhsm-debuginfo                                      GPLv2                        http://fedorahosted.org/candlepin  no     no                                                                    
-python39-rich                                                MIT                          https://github.com/willmcgugan/rich  no     no                                                                  
-python39-ruamel-yaml                                         MIT license                  https://sourceforge.net/p/ruamel-yaml/code/ci/default/tree  no     no                                           
-python39-ruamel-yaml-clib                                    MIT                          https://sourceforge.net/p/ruamel-yaml-clib/code/ci/default/tree  no     no                                      
-python39-ruamel-yaml-clib-debuginfo                          MIT                          https://sourceforge.net/p/ruamel-yaml-clib/code/ci/default/tree  no     no                                      
-python39-schema                                              MIT                          https://github.com/keleshev/schema  no     no                                                                   
-python39-semantic-version                                    BSD                          https://github.com/rbarrois/python-semanticversion  no     no                                                   
-python39-setuptools-rust                                     MIT                          https://github.com/PyO3/setuptools-rust  no     no                                                              
-python39-setuptools-scm                                      MIT                          https://github.com/pypa/setuptools_scm/  no     no                                                              
-python39-setuptools_scm_git_archive                          MIT                          https://github.com/Changaco/setuptools_scm_git_archive/  no     no                                              
-python39-six                                                 MIT                          https://github.com/benjaminp/six  no     no                                                                     
-python39-smmap                                               BSD                          https://github.com/gitpython-developers/smmap  no     no                                                        
-python39-socks                                               Apache 2                     https://github.com/romis2012/python-socks  no     no                                                            
-python39-solv                                                BSD                          https://github.com/openSUSE/libsolv  no     no                                                                  
-python39-solv-debuginfo                                      BSD                          https://github.com/openSUSE/libsolv  no     no                                                                  
-python39-soupsieve                                           MIT License                  https://github.com/facelessuser/soupsieve  no     no                                                            
-python39-sqlparse                                            BSD-3-Clause                 https://github.com/andialbrecht/sqlparse  no     no                                                             
-python39-tablib                                              MIT                          https://tablib.readthedocs.io  no     no                                                                        
-python39-tenacity                                            Apache 2.0                   https://github.com/jd/tenacity  no     no                                                                       
-python39-toml                                                MIT                          https://github.com/uiri/toml  no     no                                                                         
-python39-typing-extensions                                   PSF                          https://github.com/python/typing/blob/master/typing_extensions/README.rst  no     no                            
-python39-uritemplate                                         BSD 3-Clause License or Apache License, Version 2.0 https://uritemplate.readthedocs.org  no     no                                           
-python39-url-normalize                                       MIT                          https://github.com/niksite/url-normalize  no     Runtime                                                        
-python39-urllib3                                             MIT                          https://urllib3.readthedocs.io/  no     no                                                                      
-python39-urlman                                              Apache-2.0                   https://github.com/andrewgodwin/urlman  no     no                                                               
-python39-wcmatch                                             MIT License                  https://github.com/facelessuser/wcmatch  no     no                                                              
-python39-webencodings                                        BSD                          https://github.com/SimonSapin/python-webencodings  no     no                                                    
-python39-whitenoise                                          MIT                          https://whitenoise.evans.io  no     Runtime                                                                     
-python39-xlrd                                                BSD                          http://www.python-excel.org/  no     no                                                                         
-python39-xlwt                                                BSD                          http://www.python-excel.org/  no     no                                                                         
-python39-yarl                                                Apache 2                     https://github.com/aio-libs/yarl/  no     Runtime                                                               
-python39-yarl-debuginfo                                      Apache 2                     https://github.com/aio-libs/yarl/  no     no                                                                    
-python39-zipp                                                MIT                          https://github.com/jaraco/zipp  no     no                                                                       
-ruby-solv                                                    BSD                          https://github.com/openSUSE/libsolv  no     no                                                                  
-ruby-solv-debuginfo                                          BSD                          https://github.com/openSUSE/libsolv  no     no  
+ansible-lint                                                 MIT                          https://github.com/ansible-community/ansible-lint  no     no      
+package "createrepo_c" is already released by oracle. skipping.
+createrepo_c-debuginfo                                       GPLv2+                       https://github.com/rpm-software-management/createrepo_c  no     no      
+createrepo_c-debugsource                                     GPLv2+                       https://github.com/rpm-software-management/createrepo_c  no     no      
+createrepo_c-devel                                           GPLv2+                       https://github.com/rpm-software-management/createrepo_c  no     no      
+package "createrepo_c-libs" is already released by oracle. skipping.
+createrepo_c-libs-debuginfo                                  GPLv2+                       https://github.com/rpm-software-management/createrepo_c  no     no      
+package "libcomps" is already released by oracle. skipping.
+libcomps-debuginfo                                           GPLv2+                       https://github.com/rpm-software-management/libcomps  no     no      
+libcomps-debugsource                                         GPLv2+                       https://github.com/rpm-software-management/libcomps  no     no      
+libcomps-devel                                               GPLv2+                       https://github.com/rpm-software-management/libcomps  no     no      
+package "libsolv" is already released by oracle. skipping.
+libsolv-debuginfo                                            BSD                          https://github.com/openSUSE/libsolv  no     no      
+libsolv-debugsource                                          BSD                          https://github.com/openSUSE/libsolv  no     no      
+libsolv-demo                                                 BSD                          https://github.com/openSUSE/libsolv  no     no      
+libsolv-demo-debuginfo                                       BSD                          https://github.com/openSUSE/libsolv  no     no      
+libsolv-devel                                                BSD                          https://github.com/openSUSE/libsolv  no     no      
+libsolv-tools                                                BSD                          https://github.com/openSUSE/libsolv  no     no      
+libsolv-tools-debuginfo                                      BSD                          https://github.com/openSUSE/libsolv  no     no      
+postgresql-evr                                               GPLv3                        https://github.com/Katello/postgresql-evr  no     no      
+pulpcore-selinux                                             GPL2+                        https://pulpproject.org  no     no      
+python-aiohttp-debugsource                                   Apache 2                     https://github.com/aio-libs/aiohttp  no     no      
+python-brotli-debugsource                                    MIT                          https://github.com/google/brotli  no     no      
+python-cchardet-debugsource                                  Mozilla Public License       https://github.com/PyYoshi/cChardet  no     no      
+python-cffi-debugsource                                      MIT                          http://cffi.readthedocs.org  no     no      
+python-cryptography-debugsource                              BSD or Apache License, Version 2.0 https://github.com/pyca/cryptography  no     no      
+python-frozenlist-debugsource                                Apache 2                     https://github.com/aio-libs/frozenlist  no     no      
+python-lxml-debugsource                                      BSD                          https://lxml.de/  no     no      
+python-markupsafe-debugsource                                BSD-3-Clause                 https://palletsprojects.com/p/markupsafe/  no     no      
+python-multidict-debugsource                                 Apache 2                     https://github.com/aio-libs/multidict  no     no      
+python-psycopg2-debugsource                                  LGPL with exceptions         https://psycopg.org/  no     no      
+python-pycairo-debugsource                                   LGPL-2.1-only OR MPL-1.1     https://pycairo.readthedocs.io  no     no      
+python-pycares-debugsource                                   MIT                          http://github.com/saghul/pycares  no     no      
+python-pycryptodomex-debugsource                             BSD, Public Domain           https://www.pycryptodome.org  no     no      
+python-pygobject-debugsource                                 GNU LGPL                     https://pygobject.readthedocs.io  no     no      
+python-pyrsistent-debugsource                                MIT                          http://github.com/tobgu/pyrsistent/  no     no      
+python-rhsm-debugsource                                      GPLv2                        http://fedorahosted.org/candlepin  no     no      
+python-ruamel-yaml-clib-debugsource                          MIT                          https://sourceforge.net/p/ruamel-yaml-clib/code/ci/default/tree  no     no      
+python-yarl-debugsource                                      Apache 2                     https://github.com/aio-libs/yarl/  no     no      
+python3-createrepo_c                                         GPLv2+                       https://github.com/rpm-software-management/createrepo_c  no     no      
+python3-createrepo_c-debuginfo                               GPLv2+                       https://github.com/rpm-software-management/createrepo_c  no     no      
+package "python3-libcomps" is already released by oracle. skipping.
+python3-libcomps-debuginfo                                   GPLv2+                       https://github.com/rpm-software-management/libcomps  no     no      
+python3-solv                                                 BSD                          https://github.com/openSUSE/libsolv  no     no      
+python3-solv-debuginfo                                       BSD                          https://github.com/openSUSE/libsolv  no     no      
+python39-aiodns                                              MIT                          https://github.com/saghul/aiodns  no     Runtime 
+python39-aiofiles                                            Apache 2.0                   https://github.com/Tinche/aiofiles  no     Runtime 
+python39-aiohttp                                             Apache 2                     https://github.com/aio-libs/aiohttp  no     Runtime 
+python39-aiohttp-debuginfo                                   Apache 2                     https://github.com/aio-libs/aiohttp  no     no      
+python39-aiohttp-socks                                       Apache 2                     https://github.com/romis2012/aiohttp-socks  no     no      
+python39-aiohttp-xmlrpc                                      MIT                          https://github.com/mosquito/aiohttp-xmlrpc  no     no      
+python39-aioredis                                            MIT                          https://github.com/aio-libs/aioredis  no     Runtime 
+python39-aiosignal                                           Apache 2                     https://github.com/aio-libs/aiosignal  no     no      
+python39-ansible-builder                                     Apache-2.0                   https://github.com/ansible/ansible-builder/  no     no      
+python39-asgiref                                             BSD                          https://github.com/django/asgiref/  no     no      
+python39-async-lru                                           None                         https://github.com/wikibusiness/async_lru  no     no      
+python39-async-timeout                                       Apache 2                     https://github.com/aio-libs/async-timeout  no     no      
+python39-asyncio-throttle                                    MIT                          https://github.com/hallazzang/asyncio-throttle  no     Runtime 
+python39-attrs                                               MIT                          https://www.attrs.org/  no     no      
+python39-backoff                                             MIT                          https://github.com/litl/backoff  no     Runtime 
+python39-bandersnatch                                        Academic Free License, version 3 https://github.com/pypa/bandersnatch/  no     no      
+python39-beautifulsoup4                                      MIT                          http://www.crummy.com/software/BeautifulSoup/bs4/  no     no      
+python39-bindep                                              Apache License, Version 2.0  https://docs.opendev.org/opendev/bindep  no     no      
+python39-bleach                                              Apache Software License      https://github.com/mozilla/bleach  no     no      
+python39-bleach-allowlist                                    BSD License                  https://github.com/yourcelf/bleach-allowlist.git  no     no      
+python39-bracex                                              MIT License                  https://github.com/facelessuser/bracex  no     no      
+python39-brotli                                              MIT                          https://github.com/google/brotli  no     no      
+python39-brotli-debuginfo                                    MIT                          https://github.com/google/brotli  no     no      
+python39-cchardet                                            Mozilla Public License       https://github.com/PyYoshi/cChardet  no     no      
+python39-cchardet-debuginfo                                  Mozilla Public License       https://github.com/PyYoshi/cChardet  no     no      
+python39-certifi                                             MPL-2.0                      https://certifiio.readthedocs.io/en/latest/  no     no      
+python39-cffi                                                MIT                          http://cffi.readthedocs.org  no     no      
+python39-cffi-debuginfo                                      MIT                          http://cffi.readthedocs.org  no     no      
+python39-chardet                                             LGPL                         https://github.com/chardet/chardet  no     no      
+python39-charset-normalizer                                  MIT                          https://github.com/ousret/charset_normalizer  no     no      
+python39-click                                               BSD-3-Clause                 https://palletsprojects.com/p/click/  no     Runtime 
+python39-click-shell                                         BSD                          https://github.com/clarkperkins/click-shell  no     no      
+python39-colorama                                            BSD                          https://github.com/tartley/colorama  no     no      
+python39-commonmark                                          BSD-3-Clause                 https://github.com/rtfd/commonmark.py  no     no      
+python39-contextlib2                                         PSF License                  http://contextlib2.readthedocs.org  no     no      
+python39-createrepo_c                                        GPLv2+                       https://github.com/rpm-software-management/createrepo_c  no     no      
+python39-createrepo_c-debuginfo                              GPLv2+                       https://github.com/rpm-software-management/createrepo_c  no     no      
+python39-cryptography                                        BSD or Apache License, Version 2.0 https://github.com/pyca/cryptography  no     Runtime 
+python39-cryptography-debuginfo                              BSD or Apache License, Version 2.0 https://github.com/pyca/cryptography  no     no      
+python39-dataclasses                                         Apache                       https://github.com/ericvsmith/dataclasses  no     no      
+python39-dateutil                                            Dual License                 https://dateutil.readthedocs.io  no     no      
+python39-debian                                              GPL-2+                       https://salsa.debian.org/python-debian-team/python-debian  no     no      
+python39-defusedxml                                          PSFL                         https://github.com/tiran/defusedxml  no     no      
+python39-diff-match-patch                                    Apache                       https://github.com/diff-match-patch-python/diff-match-patch  no     no      
+python39-distro                                              Apache License, Version 2.0  https://github.com/python-distro/distro  no     no      
+python39-django                                              BSD-3-Clause                 https://www.djangoproject.com/  no     Runtime 
+python39-django-currentuser                                  BSD                          https://github.com/PaesslerAG/django-currentuser  no     Runtime 
+python39-django-filter                                       BSD                          https://github.com/carltongibson/django-filter/tree/master  no     Runtime 
+python39-django-guardian                                     BSD                          http://github.com/django-guardian/django-guardian  no     Runtime 
+python39-django-guid                                         BSD                          https://github.com/snok/django-guid  no     Runtime 
+python39-django-import-export                                BSD License                  https://github.com/django-import-export/django-import-export  no     Runtime 
+python39-django-lifecycle                                    MIT                          https://github.com/rsinger86/django-lifecycle  no     Runtime 
+python39-django-prometheus                                   Apache                       http://github.com/korfuri/django-prometheus  no     Runtime 
+python39-django-readonly-field                               MIT                          https://github.com/peopledoc/django-readonly-field  no     no      
+python39-djangorestframework                                 BSD                          https://www.django-rest-framework.org/  no     Runtime 
+python39-djangorestframework-queryfields                     MIT                          https://github.com/wimglenn/djangorestframework-queryfields  no     Runtime 
+python39-drf-access-policy                                   MIT                          https://github.com/rsinger86/drf-access-policy  no     Runtime 
+python39-drf-nested-routers                                  Apache                       https://github.com/alanjds/drf-nested-routers  no     Runtime 
+python39-drf-spectacular                                     BSD                          https://github.com/tfranzel/drf-spectacular  no     Runtime 
+python39-dynaconf                                            MIT                          https://github.com/rochacbruno/dynaconf  no     Runtime 
+python39-ecdsa                                               MIT                          http://github.com/warner/python-ecdsa  no     no      
+python39-enrich                                              MIT                          https://github.com/pycontribs/enrich  no     no      
+python39-et-xmlfile                                          MIT                          https://foss.heptapod.net/openpyxl/et_xmlfile  no     no      
+python39-filelock                                            Unlicense                    https://github.com/benediktschmitt/py-filelock  no     no      
+python39-flake8                                              MIT                          https://gitlab.com/pycqa/flake8  no     no      
+python39-frozenlist                                          Apache 2                     https://github.com/aio-libs/frozenlist  no     no      
+python39-frozenlist-debuginfo                                Apache 2                     https://github.com/aio-libs/frozenlist  no     no      
+python39-future                                              MIT                          https://python-future.org  no     no      
+python39-galaxy-importer                                     Apache-2.0                   https://github.com/ansible/galaxy-importer  no     no      
+python39-gitdb                                               BSD License                  https://github.com/gitpython-developers/gitdb  no     no      
+python39-gitpython                                           BSD                          https://github.com/gitpython-developers/GitPython  no     no      
+python39-gnupg                                               BSD-3-Clause                 https://docs.red-dove.com/python-gnupg/  no     Runtime 
+python39-gunicorn                                            MIT                          https://gunicorn.org  no     Runtime 
+python39-humanfriendly                                       MIT                          https://humanfriendly.readthedocs.io  no     no      
+python39-idna                                                BSD-3-Clause                 https://github.com/kjd/idna  no     no      
+python39-idna-ssl                                            MIT                          https://github.com/aio-libs/idna-ssl  no     no      
+python39-importlib-metadata                                  Apache Software License      http://importlib-metadata.readthedocs.io/  no     no      
+python39-importlib-resources                                 Apache2                      https://github.com/python/importlib_resources  no     no      
+python39-inflection                                          MIT                          https://github.com/jpvanhal/inflection  no     no      
+python39-iniparse                                            MIT and Python               https://pypi.org/project/iniparse/  no     no      
+python39-jinja2                                              BSD-3-Clause                 https://palletsprojects.com/p/jinja/  no     Runtime 
+python39-jsonschema                                          MIT                          https://github.com/Julian/jsonschema  no     no      
+python39-libcomps                                            GPLv2+                       https://github.com/rpm-software-management/libcomps  no     no      
+python39-libcomps-debuginfo                                  GPLv2+                       https://github.com/rpm-software-management/libcomps  no     no      
+python39-lxml                                                BSD                          https://lxml.de/  no     no      
+python39-lxml-debuginfo                                      BSD                          https://lxml.de/  no     no      
+python39-markdown                                            BSD License                  https://Python-Markdown.github.io/  no     no      
+python39-markuppy                                            MIT                          https://github.com/tylerbakke/MarkupPy  no     no      
+python39-markupsafe                                          BSD-3-Clause                 https://palletsprojects.com/p/markupsafe/  no     no      
+python39-markupsafe-debuginfo                                BSD-3-Clause                 https://palletsprojects.com/p/markupsafe/  no     no      
+python39-mccabe                                              Expat license                https://github.com/pycqa/mccabe  no     no      
+python39-multidict                                           Apache 2                     https://github.com/aio-libs/multidict  no     no      
+python39-multidict-debuginfo                                 Apache 2                     https://github.com/aio-libs/multidict  no     no      
+python39-naya                                                MIT                          https://github.com/danielyule/naya  no     Runtime 
+python39-odfpy                                               GPLv2+ or Apache-2.0         https://github.com/eea/odfpy  no     no      
+python39-openpyxl                                            MIT                          https://openpyxl.readthedocs.io  no     no      
+python39-packaging                                           BSD-2-Clause or Apache-2.0   https://github.com/pypa/packaging  no     no      
+python39-parsley                                             MIT License                  http://launchpad.net/parsley  no     no      
+python39-pbr                                                 None                         https://docs.openstack.org/pbr/latest/  no     no      
+python39-pkginfo                                             MIT                          https://code.launchpad.net/~tseaver/pkginfo/trunk  no     no      
+python39-productmd                                           LGPLv2.1                     https://github.com/release-engineering/productmd  no     no      
+python39-prometheus-client                                   Apache Software License 2.0  https://github.com/prometheus/client_python  no     no      
+python39-psycopg2                                            LGPL with exceptions         https://psycopg.org/  no     Runtime 
+python39-psycopg2-debuginfo                                  LGPL with exceptions         https://psycopg.org/  no     no      
+python39-pulp-ansible                                        GPLv2+                       https://github.com/pulp/pulp_ansible  no     no      
+python39-pulp-certguard                                      GPLv2+                       https://docs.pulpproject.org/pulp_certguard/  no     no      
+python39-pulp-cli                                            GPLv2+                       https://github.com/pulp/pulp-cli  no     no      
+python39-pulp-container                                      GPLv2+                       https://pulpproject.org/  no     no      
+python39-pulp-deb                                            GPLv2+                       https://pulpproject.org  no     no      
+python39-pulp-file                                           GPLv2+                       https://pulpproject.org/  no     no      
+python39-pulp-python                                         GPLv2+                       https://www.pulpproject.org  no     no      
+python39-pulp-rpm                                            GPLv2+                       http://www.pulpproject.org  no     no      
+python39-pulpcore                                            GPLv2+                       https://pulpproject.org  no     no      
+python39-pyOpenSSL                                           Apache License, Version 2.0  https://pyopenssl.org/  no     no      
+python39-pycairo                                             LGPL-2.1-only OR MPL-1.1     https://pycairo.readthedocs.io  no     no      
+python39-pycairo-debuginfo                                   LGPL-2.1-only OR MPL-1.1     https://pycairo.readthedocs.io  no     no      
+python39-pycairo-devel                                       LGPL-2.1-only OR MPL-1.1     https://pycairo.readthedocs.io  no     no      
+python39-pycares                                             MIT                          http://github.com/saghul/pycares  no     no      
+python39-pycares-debuginfo                                   MIT                          http://github.com/saghul/pycares  no     no      
+python39-pycodestyle                                         Expat license                https://pycodestyle.pycqa.org/  no     no      
+python39-pycparser                                           BSD                          https://github.com/eliben/pycparser  no     no      
+python39-pycryptodomex                                       BSD, Public Domain           https://www.pycryptodome.org  no     no      
+python39-pycryptodomex-debuginfo                             BSD, Public Domain           https://www.pycryptodome.org  no     no      
+python39-pyflakes                                            MIT                          https://github.com/PyCQA/pyflakes  no     no      
+python39-pygments                                            BSD License                  https://pygments.org/  no     no      
+python39-pygobject                                           GNU LGPL                     https://pygobject.readthedocs.io  no     no      
+python39-pygobject-debuginfo                                 GNU LGPL                     https://pygobject.readthedocs.io  no     no      
+python39-pygtrie                                             Apache-2.0                   https://github.com/mina86/pygtrie  no     Runtime 
+python39-pyjwkest                                            Apache 2.0                   None  no     no      
+python39-pyjwt                                               MIT                          http://github.com/jpadilla/pyjwt  no     no      
+python39-pyparsing                                           MIT                          https://github.com/pyparsing/pyparsing  no     no      
+python39-pypi-simple                                         MIT                          https://github.com/jwodder/pypi-simple  no     no      
+python39-pyrsistent                                          MIT                          http://github.com/tobgu/pyrsistent/  no     no      
+python39-pyrsistent-debuginfo                                MIT                          http://github.com/tobgu/pyrsistent/  no     no      
+python39-pytz                                                MIT                          http://pythonhosted.org/pytz  no     no      
+python39-pyyaml                                              MIT                          https://pyyaml.org/  no     Runtime 
+python39-redis                                               MIT                          https://github.com/andymccurdy/redis-py  no     Runtime 
+python39-requests                                            Apache 2.0                   https://requests.readthedocs.io  no     no      
+python39-requirements-parser                                 BSD                          https://github.com/davidfischer/requirements-parser  no     no      
+python39-rhsm                                                GPLv2                        http://fedorahosted.org/candlepin  no     no      
+python39-rhsm-debuginfo                                      GPLv2                        http://fedorahosted.org/candlepin  no     no      
+python39-rich                                                MIT                          https://github.com/willmcgugan/rich  no     no      
+python39-ruamel-yaml                                         MIT license                  https://sourceforge.net/p/ruamel-yaml/code/ci/default/tree  no     no      
+python39-ruamel-yaml-clib                                    MIT                          https://sourceforge.net/p/ruamel-yaml-clib/code/ci/default/tree  no     no      
+python39-ruamel-yaml-clib-debuginfo                          MIT                          https://sourceforge.net/p/ruamel-yaml-clib/code/ci/default/tree  no     no      
+python39-schema                                              MIT                          https://github.com/keleshev/schema  no     no      
+python39-semantic-version                                    BSD                          https://github.com/rbarrois/python-semanticversion  no     no      
+python39-setuptools-rust                                     MIT                          https://github.com/PyO3/setuptools-rust  no     no      
+python39-setuptools-scm                                      MIT                          https://github.com/pypa/setuptools_scm/  no     no      
+python39-setuptools_scm_git_archive                          MIT                          https://github.com/Changaco/setuptools_scm_git_archive/  no     no      
+python39-six                                                 MIT                          https://github.com/benjaminp/six  no     no      
+python39-smmap                                               BSD                          https://github.com/gitpython-developers/smmap  no     no      
+python39-socks                                               Apache 2                     https://github.com/romis2012/python-socks  no     no      
+python39-solv                                                BSD                          https://github.com/openSUSE/libsolv  no     no      
+python39-solv-debuginfo                                      BSD                          https://github.com/openSUSE/libsolv  no     no      
+python39-soupsieve                                           MIT License                  https://github.com/facelessuser/soupsieve  no     no      
+python39-sqlparse                                            BSD-3-Clause                 https://github.com/andialbrecht/sqlparse  no     no      
+python39-tablib                                              MIT                          https://tablib.readthedocs.io  no     no      
+python39-tenacity                                            Apache 2.0                   https://github.com/jd/tenacity  no     no      
+python39-toml                                                MIT                          https://github.com/uiri/toml  no     no      
+python39-typing-extensions                                   PSF                          https://github.com/python/typing/blob/master/typing_extensions/README.rst  no     no      
+python39-uritemplate                                         BSD 3-Clause License or Apache License, Version 2.0 https://uritemplate.readthedocs.org  no     no      
+python39-url-normalize                                       MIT                          https://github.com/niksite/url-normalize  no     Runtime 
+python39-urllib3                                             MIT                          https://urllib3.readthedocs.io/  no     no      
+python39-urlman                                              Apache-2.0                   https://github.com/andrewgodwin/urlman  no     no      
+python39-wcmatch                                             MIT License                  https://github.com/facelessuser/wcmatch  no     no      
+python39-webencodings                                        BSD                          https://github.com/SimonSapin/python-webencodings  no     no      
+python39-whitenoise                                          MIT                          https://whitenoise.evans.io  no     Runtime 
+python39-xlrd                                                BSD                          http://www.python-excel.org/  no     no      
+python39-xlwt                                                BSD                          http://www.python-excel.org/  no     no      
+python39-yarl                                                Apache 2                     https://github.com/aio-libs/yarl/  no     Runtime 
+python39-yarl-debuginfo                                      Apache 2                     https://github.com/aio-libs/yarl/  no     no      
+python39-zipp                                                MIT                          https://github.com/jaraco/zipp  no     no      
+ruby-solv                                                    BSD                          https://github.com/openSUSE/libsolv  no     no      
+ruby-solv-debuginfo                                          BSD                          https://github.com/openSUSE/libsolv  no     no      
